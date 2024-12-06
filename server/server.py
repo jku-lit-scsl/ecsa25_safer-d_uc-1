@@ -14,7 +14,7 @@ def home():
 def get_parent_ip():
     parent_ip = CONFIG.parent_ip
     if parent_ip and parent_ip != '':
-        return jsonify(server=parent_ip)
+        return jsonify(parent_ip=parent_ip)
     else:
         return jsonify(error="Parent not found"), 404
 
@@ -23,7 +23,7 @@ def get_parent_ip():
 def get_child_ips():
     child_ips = CONFIG.child_ips
     if child_ips and len(child_ips) > 0:
-        return jsonify(server=child_ips)
+        return jsonify(child_ips=child_ips)
     else:
         return jsonify(error="Parent not found"), 404
 
