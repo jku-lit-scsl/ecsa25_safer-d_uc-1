@@ -1,4 +1,3 @@
-install
 flask
 requests
 python-statemachine
