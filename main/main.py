@@ -1,5 +1,4 @@
 # Created on 06.12.2024
-
 from util.utils import setup_logging
 
 ips_to_check = []
