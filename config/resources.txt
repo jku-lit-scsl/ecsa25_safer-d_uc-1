@@ -1,0 +1,6 @@
+install
+flask
+requests
+python-statemachine
+psutil
+pytz
