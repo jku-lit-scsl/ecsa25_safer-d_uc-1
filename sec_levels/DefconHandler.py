@@ -15,9 +15,9 @@ class SecurityLevel(State):
 class DefconHandler(StateMachine):
     """Defcon modes handler"""
 
-    defcon_3_normal = SecurityLevel(initial=True, value=0)
-    defcon_2_monitoring = SecurityLevel(value=1)
-    defcon_1_localize = SecurityLevel(value=2)
+    defcon_3_normal = SecurityLevel(initial=True, value=1)
+    defcon_2_monitoring = SecurityLevel(value=2)
+    defcon_1_localize = SecurityLevel(value=3)
 
     do_increase = (
             defcon_3_normal.to(defcon_2_monitoring)
@@ -52,6 +52,10 @@ class DefconHandler(StateMachine):
 
         except TransitionNotAllowed as e:
             logging.error(f'Decrease defcon mode not possible: {str(e)}')
+
+    def increase_security_level(self, target_level):
+        while self.current_state.value != target_level:
+            self.do_increase()
 
     def on_enter_defcon_3_normal(self):
         pass
