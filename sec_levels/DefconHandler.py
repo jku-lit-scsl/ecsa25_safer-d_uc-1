@@ -6,13 +6,18 @@ from statemachine.exceptions import TransitionNotAllowed
 from util.utils import singleton
 
 
+class SecurityLevel(State):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+
 @singleton
 class DefconHandler(StateMachine):
     """Defcon modes handler"""
 
-    defcon_3_normal = State(initial=True)
-    defcon_2_monitoring = State()
-    defcon_1_localize = State()
+    defcon_3_normal = SecurityLevel(initial=True, value=0)
+    defcon_2_monitoring = SecurityLevel(value=1)
+    defcon_1_localize = SecurityLevel(value=2)
 
     do_increase = (
             defcon_3_normal.to(defcon_2_monitoring)
@@ -57,5 +62,5 @@ class DefconHandler(StateMachine):
     def on_enter_defcon_1_localize(self):
         pass
 
-    def get_current_state(self):
-        return self.current_state.id
+    def get_current_security_level(self):
+        return self.current_state

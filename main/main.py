@@ -2,18 +2,39 @@
 import json
 import logging
 import sys
+import time
 
 import requests
 
 import config.config as CONFIG
+from sec_levels.DefconHandler import DefconHandler
+from server.server import start_flask_server
 from util.utils import setup_logging
 
 ips_to_check = []
+defcon_handler = DefconHandler()
 
 
 def check_adaptations():
     # traverses the
-    pass
+    current_own_sec_level = defcon_handler.get_current_security_level()
+    ip_sec_levels = []
+    for ip in ips_to_check:
+        response = requests.get(f"http://{ip}:5000/get_security_level")
+        if response.status_code == 200:
+            criticality_to_check = int(json.loads(response.text)['criticality'])
+            ip_sec_levels.append(criticality_to_check)
+        else:
+            logging.warning(f"Could not reach ip: {ip}")
+
+    max_criticality = max(ip_sec_levels)
+
+    if max_criticality > current_own_sec_level:
+        logging.warning(f"Checked adaptations: New criticality: {max_criticality}")
+        ## todo: adapt to the more secure
+
+    else:
+        logging.info("Checked adaptations: no adaptations required.")
 
 
 def traverse_parent_ips(parent_ip):
@@ -59,18 +80,19 @@ def init_ip_tree():
 
 
 if __name__ == "__main__":
-    # setup
+    #### SETUP
+    # logging
     setup_logging()
-
+    # flask
+    start_flask_server()
+    # just in case wait for the other systems to come up
+    time.sleep(5)
     # parse entire hierarchy once
     init_ip_tree()
-
     if len(ips_to_check) == 0:
         logging.error('Did not find any ips to check for adaptation. ABORTING')
         sys.exit(0)
 
-    ## ToDo continue with cyclic adaptations here
     while True:
         check_adaptations()
-        # todo add timer
-        break
+        time.sleep(10)
