@@ -15,8 +15,16 @@ def get_local_ip():
 def determine_parent_ip(ip):
     if ip == "192.168.56.20":
         return ''
-    elif "192.168.56.24" or "192.168.56.28":
+    elif ip == "192.168.56.24" or ip == "192.168.56.28":
         return '192.168.56.20'
+    elif ip == "192.168.56.30" or ip == "192.168.56.31":
+        return '192.168.56.24'
+    elif ip == "192.168.56.23":
+        return '192.168.56.31'
+    elif ip == "192.168.56.33":
+        return '192.168.56.32'
+    elif ip == "192.168.56.32":
+        return '192.168.56.28'
     else:
         logging.error(f'Could not determine parent IP for {ip}')
 
@@ -24,6 +32,20 @@ def determine_parent_ip(ip):
 def determine_child_ip(ip):
     if ip == "192.168.56.20":
         return ['192.168.56.24', '192.168.56.28']
+    elif ip == "192.168.56.31":
+        return ['192.168.56.23']
+    elif ip == "192.168.56.30":
+        return ['']
+    elif ip == "192.168.56.23":
+        return ['']
+    elif ip == "192.168.56.33":
+        return ['']
+    elif ip == "192.168.56.32":
+        return ['192.168.56.33']
+    elif ip == "192.168.56.28":
+        return ['192.168.56.32']
+    elif ip == "192.168.56.24":
+        return ['192.168.56.30', '192.168.56.31']
     else:
         logging.error(f'Could not determine child IPs for {ip}')
 
