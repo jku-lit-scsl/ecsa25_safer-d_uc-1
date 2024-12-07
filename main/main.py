@@ -109,7 +109,7 @@ if __name__ == "__main__":
     # flask
     start_flask_server()
     # just in case wait for the other systems to come up
-    time.sleep(5)
+    time.sleep(30)
     # parse entire hierarchy once
     init_ip_tree(True)
     if len(ips_to_check) == 0:
