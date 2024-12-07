@@ -107,12 +107,12 @@ def setup():
     #### SETUP
     # logging
     setup_logging()
-    # flask
-    start_flask_server()
     # log ips
     logging.info(f"MY-IP={CONFIG.my_ip}")
     logging.info(f"PARENT-IP={CONFIG.parent_ip}")
     logging.info(f"CHILDREN-IP={CONFIG.child_ips}")
+    # flask
+    start_flask_server()
 
 
 if __name__ == "__main__":
