@@ -105,8 +105,6 @@ def init_ip_tree(is_first_init=False):
 
 if __name__ == "__main__":
     #### SETUP
-    global in_SoS_Mode, ips_to_check, number_of_subsystems
-
     # logging
     setup_logging()
     # flask
