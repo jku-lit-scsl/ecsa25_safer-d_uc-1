@@ -6,8 +6,6 @@ from collections import defaultdict
 from scapy.all import sniff
 from scapy.layers.inet import IP, ICMP
 
-from util.utils import setup_logging
-
 
 def handle_ping(src_ip):
     # here could be further processing, for demonstration purposes, we just log the ping
@@ -23,17 +21,17 @@ class ICMPThread(threading.Thread):
 
     def pause(self):
         """Pauses the thread."""
-        logging.info("Pausing ICMP monitors...")
+        logging.info("Pausing ICMP thread...")
         self._pause_event.clear()
 
     def resume(self):
         """Resumes the thread."""
-        logging.info("Resuming ICMP monitors...")
+        logging.info("Resuming ICMP thread...")
         self._pause_event.set()
 
     def stop(self):
         """Stops the thread."""
-        logging.info("Stopping ICMP monitors...")
+        logging.info("Stopping ICMP thread...")
         self._stop_event.set()
         self._pause_event.set()  # Ensure the thread is not blocked on pause
 
@@ -126,7 +124,3 @@ class ICMPThreadBlocker(ICMPThread):
             sniff(filter="icmp", prn=process_packet, store=False, timeout=1)
 
 
-if __name__ == '__main__':
-    setup_logging()
-    icmp_thread = ICMPThreadBlocker()
-    icmp_thread.start()
