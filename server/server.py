@@ -13,6 +13,20 @@ def home():
     return "Hello, World!"
 
 
+@app.route('/increase_security_level')
+def increase_security_level():
+    defcon_handler = DefconHandler()
+    defcon_handler.increase()
+    return "Success"
+
+
+@app.route('/decrease_security_level')
+def decrease_security_level():
+    defcon_handler = DefconHandler()
+    defcon_handler.decrease()
+    return "Success"
+
+
 @app.route('/get_security_level', methods=['GET'])
 def get_security_level():
     defcon_handler = DefconHandler()
