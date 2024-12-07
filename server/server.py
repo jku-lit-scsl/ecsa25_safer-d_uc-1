@@ -30,7 +30,7 @@ def decrease_security_level():
 @app.route('/get_security_level', methods=['GET'])
 def get_security_level():
     defcon_handler = DefconHandler()
-    criticality = defcon_handler.getSecurityLevel().value
+    criticality = defcon_handler.get_current_security_level().value
     if criticality and criticality >= 0:
         return jsonify(criticality=criticality)
     else:
