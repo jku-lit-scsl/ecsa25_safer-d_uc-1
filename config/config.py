@@ -35,11 +35,11 @@ def determine_child_ip(ip):
     elif ip == "192.168.56.31":
         return ['192.168.56.23']
     elif ip == "192.168.56.30":
-        return ['']
+        return []
     elif ip == "192.168.56.23":
-        return ['']
+        return []
     elif ip == "192.168.56.33":
-        return ['']
+        return []
     elif ip == "192.168.56.32":
         return ['192.168.56.33']
     elif ip == "192.168.56.28":

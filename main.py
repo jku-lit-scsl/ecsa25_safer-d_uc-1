@@ -22,7 +22,7 @@ def check_adaptations():
     :return: void
     """
     global ips_to_check, in_SoS_Mode
-    current_own_sec_level = defcon_handler.get_current_security_level()
+    current_own_sec_level = defcon_handler.get_current_security_level().value
     ip_sec_levels = []
     for ip in ips_to_check:
         response = requests.get(f"http://{ip}:5000/get_security_level")
