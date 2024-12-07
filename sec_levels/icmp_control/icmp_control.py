@@ -5,8 +5,6 @@ import time
 from scapy.all import sniff
 from scapy.layers.inet import IP, ICMP
 
-from util.utils import setup_logging
-
 
 class ICMPLogThread(threading.Thread):
     def __init__(self):
@@ -25,30 +23,26 @@ class ICMPLogThread(threading.Thread):
                 logging.info(f"Ping from {src_ip}")
 
         while not self._stop_event.is_set():
-            self._pause_event.wait()  # Block while paused
-            sniff(filter="icmp", prn=process_packet, store=False, stop_filter=lambda p: self._stop_event.is_set())
+            # Check if the thread is paused
+            if not self._pause_event.is_set():
+                time.sleep(0.1)  # Wait until resume
+                continue
+
+            # Sniff with a timeout to allow for state checks
+            sniff(filter="icmp", prn=process_packet, store=False, timeout=1)
 
     def pause(self):
         """Pauses the thread."""
+        logging.info("Pausing ICMP monitors...")
         self._pause_event.clear()
 
     def resume(self):
         """Resumes the thread."""
+        logging.info("Resuming ICMP monitors...")
         self._pause_event.set()
 
     def stop(self):
         """Stops the thread."""
+        logging.info("Stopping ICMP monitors...")
         self._stop_event.set()
-        self._pause_event.set()  # Ensure thread can exit even if paused
-
-
-if __name__ == '__main__':
-    setup_logging()
-    icmp_thread = ICMPLogThread()
-    icmp_thread.start()
-    time.sleep(20)
-    print("pausing now")
-    icmp_thread.pause()
-    time.sleep(20)
-    print("stopped pausing")
-    icmp_thread.resume()
+        self._pause_event.set()  # Ensure the thread is not blocked on pause
