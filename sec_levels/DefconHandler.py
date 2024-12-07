@@ -3,8 +3,8 @@ import logging
 from statemachine import StateMachine, State
 from statemachine.exceptions import TransitionNotAllowed
 
-from sec_levels.icmp_control.icmp_control import ICMPThread
-from util.PausibleMonitoringThread import PausableMonitoringThread
+from sec_levels.icmp_control.icmp_control import ICMPThreadMonitor, ICMPThreadRateLimiting, \
+    ICMPThreadBlocker
 from util.utils import singleton
 
 
@@ -35,16 +35,16 @@ class DefconHandler(StateMachine):
         # init base monitoring
         self.previous_state = None
         # create monitors
-        self.normal_monitoring_thread = ICMPThread()
-        self.decrease_ICMP_threads = PausableMonitoringThread(5)
-        self.maximum_monitoring_thread = PausableMonitoringThread(2.5)
+        self.icmp_normal_monitor_thread = ICMPThreadMonitor()
+        self.icmp_limited_thread = ICMPThreadRateLimiting(10, 5)
+        self.icmp_blocking_thread = ICMPThreadBlocker()
         # start threads
-        self.normal_monitoring_thread.start()
-        self.decrease_ICMP_threads.start()
-        self.maximum_monitoring_thread.start()
+        self.icmp_normal_monitor_thread.start()
+        self.icmp_limited_thread.start()
+        self.icmp_blocking_thread.start()
         # pause the ones that aren't the initial levels
-        self.decrease_ICMP_threads.pause()
-        self.maximum_monitoring_thread.pause()
+        self.icmp_limited_thread.pause()
+        self.icmp_blocking_thread.pause()
         super().__init__()
 
     def increase(self):
@@ -72,19 +72,19 @@ class DefconHandler(StateMachine):
 
     def on_enter_defcon_3_normal(self):
         if self.previous_state == self.defcon_2_monitoring:
-            self.decrease_ICMP_threads.pause()
-        self.decrease_ICMP_threads.resume()
+            self.icmp_limited_thread.pause()
+        self.icmp_limited_thread.resume()
 
     def on_enter_defcon_2_monitoring(self):
         if self.previous_state == self.defcon_1_localize:
-            self.maximum_monitoring_thread.pause()
+            self.icmp_blocking_thread.pause()
         elif self.previous_state == self.defcon_3_normal:
-            self.normal_monitoring_thread.pause()
-        self.decrease_ICMP_threads.resume()
+            self.icmp_normal_monitor_thread.pause()
+        self.icmp_limited_thread.resume()
 
     def on_enter_defcon_1_localize(self):
-        self.decrease_ICMP_threads.pause()
-        self.maximum_monitoring_thread.resume()
+        self.icmp_limited_thread.pause()
+        self.icmp_blocking_thread.resume()
 
     def get_current_security_level(self):
         return self.current_state
