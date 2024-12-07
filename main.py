@@ -103,12 +103,19 @@ def init_ip_tree(is_first_init=False):
         number_of_subsystems = len(ips_to_check)
 
 
-if __name__ == "__main__":
+def setup():
     #### SETUP
     # logging
     setup_logging()
     # flask
     start_flask_server()
+    # log ips
+    logging.info(f"MY-IP={CONFIG.my_ip}")
+    logging.info(f"PARENT-IP={CONFIG.parent_ip}")
+    logging.info(f"CHILDREN-IP={CONFIG.child_ips}")
+
+
+if __name__ == "__main__":
     # just in case wait for the other systems to come up
     time.sleep(30)
     # parse entire hierarchy once
