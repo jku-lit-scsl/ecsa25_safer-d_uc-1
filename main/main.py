@@ -17,8 +17,11 @@ in_SoS_Mode = False
 
 
 def check_adaptations():
+    """
+    Checks all the related subsystems for criticality
+    :return: void
+    """
     global ips_to_check, in_SoS_Mode
-    # traverses the
     current_own_sec_level = defcon_handler.get_current_security_level()
     ip_sec_levels = []
     for ip in ips_to_check:

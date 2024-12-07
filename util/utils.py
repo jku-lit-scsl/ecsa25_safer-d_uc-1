@@ -41,16 +41,18 @@ def setup_logging():
     logger.setLevel(logging.INFO)
 
 
+def get_monitor_instance() -> str:
+    return f'{CONFIG.my_ip}\tCPU={get_cpu_usage()}\tRAM={get_virtual_memory()}'
+
+
 def get_cpu_usage() -> float:
     """Returns the CPU usage in percent"""
     return psutil.cpu_percent(interval=None)
 
 
 def get_virtual_memory() -> float:
-    """Returns the memory usage in percent"""
-    return psutil.virtual_memory().percent
-    # you can calculate percentage of available memory
-    # psutil.virtual_memory().available * 100 / psutil.virtual_memory().total
+    """Returns percentage of available memory"""
+    return psutil.virtual_memory().available * 100 / psutil.virtual_memory().total
 
 
 def generate_timestamp_for_filename():
@@ -92,16 +94,6 @@ def singleton(class_):
         return instances[class_]
 
     return getinstance
-
-
-class Singleton(type):
-    """Impl. of a singleton design pattern"""
-    _instances = {}
-
-    def __call__(cls, *args, **kwargs):
-        if cls not in cls._instances:
-            cls._instances[cls] = super(Singleton, cls).__call__(*args, **kwargs)
-        return cls._instances[cls]
 
 
 def generate_unique_id():

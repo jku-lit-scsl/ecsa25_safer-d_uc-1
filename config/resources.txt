@@ -3,3 +3,4 @@ requests
 python-statemachine
 psutil
 pytz
+scapy
