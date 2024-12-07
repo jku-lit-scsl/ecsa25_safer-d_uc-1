@@ -55,9 +55,9 @@ def get_child_ips():
         return jsonify(error="Parent not found"), 404
 
 
-def run_server_process():
+def _run_server_process():
     app.run(host='0.0.0.0', port=5000)
 
 
 def start_flask_server():
-    threading.Thread(target=run_server_process).start()
+    threading.Thread(target=_run_server_process).start()
