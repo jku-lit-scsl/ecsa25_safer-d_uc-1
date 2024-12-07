@@ -34,12 +34,7 @@ which python
 # Deactivate the virtual environment
 deactivate
 
-# to execute the program on macOS
-## sudo required for scapy and full path to resolve imports
-sudo PYTHONPATH=$(pwd) python3 main/main.py
-# to execute the program on ubuntu
-export PYTHONPATH=$PYTHONPATH:/home/ubuntu/seams25
- 
- 
+# to execute the program vai the virtual environment
+sudo venv311/bin/python main.py
 
 ```

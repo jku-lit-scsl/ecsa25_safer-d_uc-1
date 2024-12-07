@@ -1,6 +1,5 @@
 import json
 import logging
-import os
 import sys
 import time
 
@@ -10,10 +9,6 @@ import config.config as CONFIG
 from sec_levels.DefconHandler import DefconHandler
 from server.server import start_flask_server
 from util.utils import setup_logging
-
-# Add project root directory to sys.path
-project_root = os.path.abspath(os.path.dirname(__file__) + "/..")
-sys.path.insert(0, project_root)
 
 ips_to_check = []
 number_of_subsystems = -1
