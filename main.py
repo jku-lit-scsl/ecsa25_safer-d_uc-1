@@ -116,6 +116,7 @@ def setup():
 
 
 if __name__ == "__main__":
+    setup()
     # just in case wait for the other systems to come up
     time.sleep(30)
     # parse entire hierarchy once
