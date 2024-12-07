@@ -73,7 +73,7 @@ class ICMPThreadRateLimiting(ICMPThread):
         self.rate_limit_window = rate_limit_window
         self.max_pings_in_window = max_pings_in_window
 
-    def is_IP_valid(self, src_ip):
+    def is_ip_valid(self, src_ip):
         """Enforce rate limiting"""
         now = time.time()
         self.rate_limiter[src_ip] = [t for t in self.rate_limiter[src_ip] if
@@ -90,7 +90,7 @@ class ICMPThreadRateLimiting(ICMPThread):
             """Callback to handle each sniffed packet."""
             if packet.haslayer(IP) and packet.haslayer(ICMP) and packet[ICMP].type == 8:  # Type 8 is echo request
                 src_ip = packet[IP].src
-                if self.is_IP_valid(src_ip):
+                if self.is_ip_valid(src_ip):
                     handle_ping(src_ip)
                 else:
                     logging.warning(f"Rate limit exceeded for {src_ip}. Dropping packet.")
