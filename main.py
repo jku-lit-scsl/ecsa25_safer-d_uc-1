@@ -16,6 +16,14 @@ defcon_handler = DefconHandler()
 in_SoS_Mode = False
 
 
+def switch_to_sos_mode(ip):
+    global in_SoS_Mode
+    # perform meta-adaptation scale down to smaller SoS subsystem
+    logging.warning(f"Could not reach ip: {ip}")
+    in_SoS_Mode = True
+    init_ip_tree()
+
+
 def check_adaptations():
     """
     Checks all the related subsystems for criticality
@@ -25,15 +33,16 @@ def check_adaptations():
     current_own_sec_level = defcon_handler.get_current_security_level().value
     ip_sec_levels = []
     for ip in ips_to_check:
-        response = requests.get(f"http://{ip}:5000/get_security_level")
-        if response.status_code == 200:
-            criticality_to_check = int(json.loads(response.text)['criticality'])
-            ip_sec_levels.append(criticality_to_check)
-        else:
-            # perform meta-adaptation scale down to smaller SoS subsystem
-            logging.warning(f"Could not reach ip: {ip}")
-            in_SoS_Mode = True
-            init_ip_tree()
+        try:
+            response = requests.get(f"http://{ip}:5000/get_security_level")
+            if response.status_code == 200:
+                criticality_to_check = int(json.loads(response.text)['criticality'])
+                ip_sec_levels.append(criticality_to_check)
+            else:
+                switch_to_sos_mode(ip)
+                break
+        except ConnectionError:
+            switch_to_sos_mode(ip)
             break
 
     max_criticality = max(ip_sec_levels)
