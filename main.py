@@ -38,7 +38,7 @@ def check_adaptations():
     ip_sec_levels = []
     for ip in ips_to_check:
         try:
-            response = requests.get(f"http://{ip}:5000/get_security_level")
+            response = requests.get(f"http://{ip}:5000/get_security_level", timeout=3)
             if response.status_code == 200:
                 criticality_to_check = int(json.loads(response.text)['criticality'])
                 ip_sec_levels.append(criticality_to_check)
@@ -64,7 +64,7 @@ def traverse_parent_ips(parent_ip):
     global ips_to_check
     # add ips to the list
     try:
-        response = requests.get(f"http://{parent_ip}:5000/get_parent_ip")
+        response = requests.get(f"http://{parent_ip}:5000/get_parent_ip", timeout=3)
         if response.status_code == 200:
             ips_to_check.append(parent_ip)
             new_parent_ip = json.loads(response.text)['parent_ip']
@@ -83,7 +83,7 @@ def traverse_child_ips(child_ip):
     # add ips to the list
     try:
         global ips_to_check
-        response = requests.get(f"http://{child_ip}:5000/get_child_ips")
+        response = requests.get(f"http://{child_ip}:5000/get_child_ips", timeout=3)
         if response.status_code == 200:
             ips_to_check.append(child_ip)
             new_child_ip_list = json.loads(response.text)['child_ips']
