@@ -1,0 +1,1925 @@
+2024-12-08 13:53:59.145 INFO     [main.py:127] MY-IP=192.168.56.20
+2024-12-08 13:53:59.145 INFO     [main.py:128] PARENT-IP=
+2024-12-08 13:53:59.146 INFO     [main.py:129] CHILDREN-IP=['192.168.56.24', '192.168.56.28']
+2024-12-08 13:53:59.991 INFO     [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.56.20:5000
+2024-12-08 13:53:59.991 INFO     [_internal.py:97] [33mPress CTRL+C to quit[0m
+2024-12-08 13:54:29.563 INFO     [main.py:118] Initializing IP tree with following IP addresses:['192.168.56.24', '192.168.56.30', '192.168.56.31', '192.168.56.23', '192.168.56.28', '192.168.56.32', '192.168.56.33']
+2024-12-08 13:54:29.563 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:54:29.563 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:54:29.712 INFO     [main.py:60] Checked adaptations: no adaptations required.
+2024-12-08 13:54:29.712 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#149
+2024-12-08 13:54:33.143 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:54:33] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:33.378 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:54:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:35.718 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:54:35] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:35.758 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:54:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:39.713 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:54:39.713 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:54:39.994 INFO     [main.py:60] Checked adaptations: no adaptations required.
+2024-12-08 13:54:39.994 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#281
+2024-12-08 13:54:43.186 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:54:43] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:43.201 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:54:43] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:43.216 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:54:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:43.248 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:54:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:43.478 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:54:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:43.595 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:54:43] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:43.634 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:54:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:43.842 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:54:43] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:43.890 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:54:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:45.944 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:54:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:47.574 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:54:47] "[33mGET /get_parent_ip HTTP/1.1[0m" 404 -
+2024-12-08 13:54:47.728 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:54:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:49.994 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:54:49.994 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:54:50.450 INFO     [main.py:60] Checked adaptations: no adaptations required.
+2024-12-08 13:54:50.450 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#456
+2024-12-08 13:54:53.293 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:54:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:53.317 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:54:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:53.613 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:54:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:53.831 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:54:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:53.934 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:54:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:56.074 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:54:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:54:57.804 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:54:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:00.451 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:55:00.451 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:55:00.895 INFO     [main.py:60] Checked adaptations: no adaptations required.
+2024-12-08 13:55:00.895 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#444
+2024-12-08 13:55:03.350 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:55:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:03.373 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:55:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:03.719 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:55:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:03.879 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:55:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:03.977 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:55:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:06.171 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:55:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:08.014 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:55:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:10.896 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:55:10.896 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:55:11.337 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:11.337 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:55:11.337 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#441
+2024-12-08 13:55:11.337 INFO     [main.py:154] number of adaptations: 1
+2024-12-08 13:55:11.337 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:55:11.337 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:11.337 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:55:13.494 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:55:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:13.506 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:55:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:13.827 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:55:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:14.001 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:55:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:14.023 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:55:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:16.352 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:55:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:18.115 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:55:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:21.338 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:55:21.338 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:55:21.783 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:21.783 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:55:21.783 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#445
+2024-12-08 13:55:21.783 INFO     [main.py:154] number of adaptations: 2
+2024-12-08 13:55:21.783 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:55:21.783 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:21.783 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:55:23.551 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:55:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:23.628 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:55:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:23.958 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:55:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:24.076 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:55:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:24.141 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:55:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:26.505 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:55:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:28.198 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:55:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:31.784 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:55:31.784 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:55:32.250 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:32.250 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:55:32.250 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#466
+2024-12-08 13:55:32.250 INFO     [main.py:154] number of adaptations: 3
+2024-12-08 13:55:32.250 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:55:32.250 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:32.250 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:55:33.596 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:55:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:33.765 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:55:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:34.091 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:55:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:34.113 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:55:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:34.278 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:55:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:36.729 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:55:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:38.391 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:55:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:42.251 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:55:42.251 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:55:42.681 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:42.681 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:55:42.682 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#431
+2024-12-08 13:55:42.682 INFO     [main.py:154] number of adaptations: 4
+2024-12-08 13:55:42.682 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:55:42.682 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:42.682 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:55:43.643 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:55:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:43.798 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:55:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:44.155 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:55:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:44.198 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:55:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:44.415 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:55:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:46.869 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:55:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:48.522 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:55:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:52.682 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:55:52.682 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:55:53.230 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:53.230 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:55:53.230 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#548
+2024-12-08 13:55:53.230 INFO     [main.py:154] number of adaptations: 5
+2024-12-08 13:55:53.230 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:55:53.230 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:55:53.230 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:55:53.684 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:55:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:53.939 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:55:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:54.202 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:55:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:54.322 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:55:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:54.552 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:55:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:57.019 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:55:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:55:58.656 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:55:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:03.231 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:56:03.231 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:56:03.560 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:03.560 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:56:03.560 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#329
+2024-12-08 13:56:03.560 INFO     [main.py:154] number of adaptations: 6
+2024-12-08 13:56:03.561 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:56:03.561 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:03.561 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:56:03.726 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:56:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:04.084 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:56:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:04.246 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:56:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:04.423 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:56:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:04.596 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:56:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:07.247 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:56:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:08.800 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:56:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:13.561 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:56:13.561 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:56:13.818 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:56:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:13.896 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:13.896 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:56:13.896 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#335
+2024-12-08 13:56:13.896 INFO     [main.py:154] number of adaptations: 7
+2024-12-08 13:56:13.896 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:56:13.896 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:13.896 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:56:14.213 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:56:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:14.291 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:56:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:14.533 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:56:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:14.725 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:56:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:17.382 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:56:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:18.941 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:56:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:23.897 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:56:23.897 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:56:23.955 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:56:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:24.276 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:24.276 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:56:24.276 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#379
+2024-12-08 13:56:24.276 INFO     [main.py:154] number of adaptations: 8
+2024-12-08 13:56:24.276 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:56:24.276 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:24.276 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:56:24.330 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:56:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:24.353 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:56:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:24.671 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:56:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:24.770 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:56:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:27.621 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:56:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:29.077 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:56:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:34.090 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:56:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:34.277 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:56:34.277 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:56:34.382 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:56:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:34.388 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:56:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:34.559 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:34.560 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:56:34.560 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#283
+2024-12-08 13:56:34.560 INFO     [main.py:154] number of adaptations: 9
+2024-12-08 13:56:34.560 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:56:34.560 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:34.560 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:56:34.800 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:56:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:34.900 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:56:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:37.862 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:56:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:39.213 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:56:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:44.140 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:56:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:44.428 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:56:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:44.431 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:56:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:44.561 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:56:44.561 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:56:44.858 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:44.858 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:56:44.858 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#297
+2024-12-08 13:56:44.858 INFO     [main.py:154] number of adaptations: 10
+2024-12-08 13:56:44.858 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:56:44.858 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:44.858 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:56:44.919 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:56:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:45.037 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:56:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:48.103 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:56:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:49.342 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:56:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:54.263 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:56:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:54.465 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:56:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:54.481 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:56:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:54.860 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:56:54.860 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:56:55.040 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:56:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:55.083 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:56:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:55.163 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:55.163 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:56:55.164 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#304
+2024-12-08 13:56:55.164 INFO     [main.py:154] number of adaptations: 11
+2024-12-08 13:56:55.164 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:56:55.164 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:56:55.164 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:56:58.340 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:56:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:56:59.488 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:56:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:04.400 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:57:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:04.499 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:57:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:04.525 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:57:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:05.164 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:57:05.164 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:57:05.201 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:57:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:05.213 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:57:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:05.347 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:05.347 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:57:05.347 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#183
+2024-12-08 13:57:05.347 INFO     [main.py:154] number of adaptations: 12
+2024-12-08 13:57:05.347 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:57:05.347 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:05.347 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:57:08.495 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:57:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:09.615 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:57:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:14.538 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:57:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:14.571 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:57:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:14.630 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:57:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:15.262 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:57:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:15.299 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:57:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:15.348 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:57:15.348 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:57:15.555 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:15.556 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:57:15.556 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#208
+2024-12-08 13:57:15.556 INFO     [main.py:154] number of adaptations: 13
+2024-12-08 13:57:15.556 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:57:15.556 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:15.556 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:57:18.549 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:57:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:19.699 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:57:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:24.582 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:57:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:24.611 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:57:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:24.765 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:57:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:25.379 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:57:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:25.417 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:57:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:25.556 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:57:25.556 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:57:25.693 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:25.693 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:57:25.693 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#137
+2024-12-08 13:57:25.693 INFO     [main.py:154] number of adaptations: 14
+2024-12-08 13:57:25.693 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:57:25.693 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:25.693 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:57:28.603 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:57:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:29.957 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:57:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:34.632 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:57:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:34.654 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:57:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:34.799 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:57:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:35.517 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:57:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:35.537 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:57:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:35.694 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:57:35.694 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:57:35.894 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:35.894 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:57:35.894 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#200
+2024-12-08 13:57:35.894 INFO     [main.py:154] number of adaptations: 15
+2024-12-08 13:57:35.894 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:57:35.894 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:35.894 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:57:38.792 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:57:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:40.142 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:57:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:44.705 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:57:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:44.731 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:57:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:44.834 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:57:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:45.657 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:57:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:45.668 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:57:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:45.896 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:57:45.896 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:57:46.130 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:46.130 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:57:46.130 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#234
+2024-12-08 13:57:46.130 INFO     [main.py:154] number of adaptations: 16
+2024-12-08 13:57:46.130 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:57:46.130 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:46.130 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:57:49.029 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:57:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:50.276 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:57:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:54.758 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:57:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:54.774 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:57:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:54.971 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:57:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:55.770 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:57:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:55.796 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:57:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:57:56.131 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:57:56.131 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:57:56.340 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:56.340 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:57:56.340 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#209
+2024-12-08 13:57:56.341 INFO     [main.py:154] number of adaptations: 17
+2024-12-08 13:57:56.341 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:57:56.341 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:57:56.341 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:57:59.266 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:57:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:00.414 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:58:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:04.805 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:58:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:04.819 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:58:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:05.120 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:58:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:05.811 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:58:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:05.900 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:58:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:06.341 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:58:06.341 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:58:06.570 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:06.570 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:58:06.570 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#229
+2024-12-08 13:58:06.570 INFO     [main.py:154] number of adaptations: 18
+2024-12-08 13:58:06.570 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:58:06.570 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:06.570 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:58:09.420 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:58:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:10.554 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:58:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:14.856 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:58:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:14.873 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:58:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:15.247 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:58:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:15.855 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:58:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:16.032 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:58:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:16.570 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:58:16.570 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:58:16.817 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:16.817 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:58:16.817 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#247
+2024-12-08 13:58:16.817 INFO     [main.py:154] number of adaptations: 19
+2024-12-08 13:58:16.817 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:58:16.817 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:16.817 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:58:19.557 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:58:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:20.694 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:58:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:24.905 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:58:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:24.922 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:58:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:25.386 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:58:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:25.899 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:58:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:26.157 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:58:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:26.818 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:58:26.818 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:58:27.063 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:27.063 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:58:27.064 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#246
+2024-12-08 13:58:27.064 INFO     [main.py:154] number of adaptations: 20
+2024-12-08 13:58:27.064 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:58:27.064 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:27.064 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:58:29.783 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:58:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:30.822 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:58:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:34.951 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:58:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:34.971 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:58:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:35.521 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:58:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:35.945 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:58:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:36.291 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:58:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:37.065 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:58:37.065 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:58:37.323 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:37.323 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:58:37.323 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#258
+2024-12-08 13:58:37.323 INFO     [main.py:154] number of adaptations: 21
+2024-12-08 13:58:37.323 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:58:37.323 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:37.323 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:58:40.026 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:58:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:40.963 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:58:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:45.003 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:58:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:45.021 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:58:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:45.663 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:58:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:45.987 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:58:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:46.387 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:58:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:47.325 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:58:47.325 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:58:47.591 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:47.591 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:58:47.592 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#266
+2024-12-08 13:58:47.592 INFO     [main.py:154] number of adaptations: 22
+2024-12-08 13:58:47.592 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:58:47.592 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:47.592 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:58:50.176 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:58:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:51.100 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:58:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:55.054 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:58:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:55.070 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:58:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:55.798 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:58:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:56.033 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:58:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:56.490 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:58:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:58:57.592 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:58:57.592 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:58:57.813 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:57.813 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:58:57.813 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#221
+2024-12-08 13:58:57.813 INFO     [main.py:154] number of adaptations: 23
+2024-12-08 13:58:57.813 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:58:57.813 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:58:57.813 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:59:00.401 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:59:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:01.235 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:59:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:05.099 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:59:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:05.119 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:59:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:05.935 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:59:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:06.078 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:59:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:06.620 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:59:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:07.814 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:59:07.814 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:59:08.004 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:08.004 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:59:08.004 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#190
+2024-12-08 13:59:08.004 INFO     [main.py:154] number of adaptations: 24
+2024-12-08 13:59:08.005 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:59:08.005 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:08.005 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:59:10.551 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:59:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:11.380 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:59:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:15.173 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:59:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:15.187 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:59:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:16.020 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:59:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:16.122 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:59:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:16.763 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:59:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:18.006 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:59:18.006 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:59:18.299 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:18.299 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:59:18.300 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#294
+2024-12-08 13:59:18.300 INFO     [main.py:154] number of adaptations: 25
+2024-12-08 13:59:18.300 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:59:18.300 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:18.300 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:59:20.676 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:59:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:21.518 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:59:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:25.221 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:59:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:25.237 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:59:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:26.053 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:59:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:26.167 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:59:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:26.934 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:59:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:28.300 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:59:28.300 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:59:28.662 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:28.662 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:59:28.662 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#362
+2024-12-08 13:59:28.663 INFO     [main.py:154] number of adaptations: 26
+2024-12-08 13:59:28.663 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:59:28.663 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:28.663 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:59:30.810 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:59:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:31.653 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:59:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:35.266 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:59:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:35.289 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:59:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:36.145 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:59:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:36.212 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:59:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:37.034 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:59:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:38.663 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:59:38.663 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:59:38.981 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:38.981 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:59:38.981 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#318
+2024-12-08 13:59:38.981 INFO     [main.py:154] number of adaptations: 27
+2024-12-08 13:59:38.981 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:59:38.981 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:38.981 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:59:40.860 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:59:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:41.785 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:59:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:45.310 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:59:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:45.335 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:59:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:46.178 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:59:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:46.258 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:59:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:47.151 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:59:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:48.983 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:59:48.983 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:59:49.451 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:49.451 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:59:49.451 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#468
+2024-12-08 13:59:49.451 INFO     [main.py:154] number of adaptations: 28
+2024-12-08 13:59:49.451 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:59:49.451 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:49.451 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 13:59:50.986 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 13:59:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:51.926 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 13:59:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:55.354 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 13:59:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:55.395 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 13:59:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:56.214 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 13:59:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:56.301 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 13:59:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:57.277 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 13:59:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 13:59:59.453 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 13:59:59.453 INFO     [main.py:36] Checking adaptations...
+2024-12-08 13:59:59.894 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:59.894 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 13:59:59.894 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#441
+2024-12-08 13:59:59.894 INFO     [main.py:154] number of adaptations: 29
+2024-12-08 13:59:59.894 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 13:59:59.894 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 13:59:59.894 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:00:01.035 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:00:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:02.067 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:00:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:05.406 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:00:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:05.444 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:00:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:06.357 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:00:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:06.357 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:00:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:07.380 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:00:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:09.895 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:00:09.895 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:00:10.339 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:10.339 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:00:10.340 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#445
+2024-12-08 14:00:10.340 INFO     [main.py:154] number of adaptations: 30
+2024-12-08 14:00:10.340 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:00:10.340 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:10.340 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:00:11.161 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:00:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:12.196 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:00:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:15.467 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:00:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:15.492 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:00:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:16.395 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:00:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:16.409 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:00:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:17.499 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:00:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:20.342 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:00:20.342 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:00:20.889 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:20.889 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:00:20.889 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#547
+2024-12-08 14:00:20.889 INFO     [main.py:154] number of adaptations: 31
+2024-12-08 14:00:20.890 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:00:20.890 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:20.890 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:00:21.297 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:00:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:22.334 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:00:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:25.516 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:00:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:25.538 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:00:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:26.524 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:00:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:26.525 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:00:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:27.620 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:00:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:30.891 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:00:30.891 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:00:31.331 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:31.332 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:00:31.332 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#441
+2024-12-08 14:00:31.332 INFO     [main.py:154] number of adaptations: 32
+2024-12-08 14:00:31.332 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:00:31.332 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:31.332 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:00:31.433 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:00:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:32.423 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:00:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:35.568 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:00:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:35.585 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:00:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:36.662 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:00:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:36.663 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:00:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:37.771 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:00:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:41.333 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:00:41.333 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:00:41.480 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:00:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:41.499 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:41.500 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:00:41.500 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#167
+2024-12-08 14:00:41.500 INFO     [main.py:154] number of adaptations: 33
+2024-12-08 14:00:41.500 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:00:41.500 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:41.500 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:00:42.509 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:00:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:45.617 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:00:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:45.629 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:00:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:46.801 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:00:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:46.801 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:00:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:47.959 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:00:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:51.500 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:00:51.500 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:00:51.615 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:00:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:51.913 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:51.914 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:00:51.914 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#414
+2024-12-08 14:00:51.914 INFO     [main.py:154] number of adaptations: 34
+2024-12-08 14:00:51.914 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:00:51.914 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:00:51.914 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:00:52.596 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:00:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:55.666 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:00:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:55.687 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:00:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:56.835 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:00:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:56.847 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:00:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:00:58.109 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:00:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:01.757 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:01:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:01.915 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:01:01.915 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:01:02.271 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:02.271 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:01:02.271 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#356
+2024-12-08 14:01:02.271 INFO     [main.py:154] number of adaptations: 35
+2024-12-08 14:01:02.271 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:01:02.271 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:02.271 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:01:02.678 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:01:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:05.713 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:01:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:05.733 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:01:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:06.971 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:01:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:06.972 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:01:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:08.339 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:01:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:11.893 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:01:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:12.272 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:01:12.272 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:01:12.698 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:12.698 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:01:12.698 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#426
+2024-12-08 14:01:12.698 INFO     [main.py:154] number of adaptations: 36
+2024-12-08 14:01:12.698 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:01:12.698 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:12.698 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:01:12.757 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:01:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:15.760 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:01:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:15.777 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:01:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:17.005 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:01:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:17.016 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:01:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:18.538 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:01:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:22.120 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:01:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:22.699 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:01:22.699 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:01:22.827 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:01:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:23.042 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:23.042 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:01:23.042 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#343
+2024-12-08 14:01:23.042 INFO     [main.py:154] number of adaptations: 37
+2024-12-08 14:01:23.042 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:01:23.042 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:23.042 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:01:25.815 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:01:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:25.831 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:01:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:27.041 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:01:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:27.058 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:01:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:28.678 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:01:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:32.357 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:01:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:32.900 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:01:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:33.043 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:01:33.043 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:01:33.292 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:33.292 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:01:33.293 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#250
+2024-12-08 14:01:33.293 INFO     [main.py:154] number of adaptations: 38
+2024-12-08 14:01:33.293 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:01:33.293 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:33.293 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:01:35.866 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:01:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:35.890 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:01:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:37.180 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:01:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:37.181 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:01:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:38.924 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:01:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:42.597 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:01:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:43.016 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:01:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:43.294 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:01:43.294 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:01:43.638 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:43.639 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:01:43.639 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#345
+2024-12-08 14:01:43.639 INFO     [main.py:154] number of adaptations: 39
+2024-12-08 14:01:43.639 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:01:43.639 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:43.639 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:01:45.911 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:01:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:45.938 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:01:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:47.317 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:01:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:47.318 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:01:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:49.153 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:01:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:52.838 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:01:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:53.153 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:01:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:53.640 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:01:53.640 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:01:54.070 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:54.070 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:01:54.070 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#430
+2024-12-08 14:01:54.070 INFO     [main.py:154] number of adaptations: 40
+2024-12-08 14:01:54.070 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:01:54.070 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:01:54.070 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:01:55.952 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:01:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:55.982 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:01:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:57.453 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:01:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:57.454 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:01:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:01:59.395 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:01:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:03.080 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:02:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:03.306 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:02:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:04.072 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:02:04.072 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:02:04.411 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:04.411 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:02:04.412 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#340
+2024-12-08 14:02:04.412 INFO     [main.py:154] number of adaptations: 41
+2024-12-08 14:02:04.412 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:02:04.412 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:04.412 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:02:06.003 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:02:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:06.027 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:02:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:07.593 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:02:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:07.594 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:02:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:09.633 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:02:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:13.316 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:02:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:13.437 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:02:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:14.413 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:02:14.413 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:02:14.755 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:14.755 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:02:14.755 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#342
+2024-12-08 14:02:14.755 INFO     [main.py:154] number of adaptations: 42
+2024-12-08 14:02:14.755 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:02:14.756 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:14.756 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:02:16.052 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:02:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:16.075 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:02:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:17.628 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:02:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:17.638 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:02:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:19.873 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:02:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:23.556 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:02:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:23.870 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:02:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:24.756 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:02:24.756 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:02:25.096 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:25.096 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:02:25.096 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#340
+2024-12-08 14:02:25.096 INFO     [main.py:154] number of adaptations: 43
+2024-12-08 14:02:25.097 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:02:25.097 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:25.097 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:02:26.099 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:02:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:26.124 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:02:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:27.761 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:02:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:27.763 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:02:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:30.117 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:02:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:33.798 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:02:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:34.016 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:02:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:35.098 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:02:35.098 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:02:35.333 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:35.333 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:02:35.333 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#235
+2024-12-08 14:02:35.334 INFO     [main.py:154] number of adaptations: 44
+2024-12-08 14:02:35.334 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:02:35.334 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:35.334 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:02:36.140 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:02:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:36.168 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:02:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:37.798 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:02:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:37.807 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:02:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:40.343 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:02:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:44.037 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:02:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:44.087 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:02:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:45.335 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:02:45.335 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:02:45.541 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:45.541 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:02:45.541 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#206
+2024-12-08 14:02:45.541 INFO     [main.py:154] number of adaptations: 45
+2024-12-08 14:02:45.541 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:02:45.541 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:45.541 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:02:46.186 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:02:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:46.221 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:02:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:47.937 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:02:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:47.938 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:02:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:50.484 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:02:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:54.193 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:02:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:54.203 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:02:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:55.543 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:02:55.543 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:02:55.917 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:55.917 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:02:55.917 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#374
+2024-12-08 14:02:55.917 INFO     [main.py:154] number of adaptations: 46
+2024-12-08 14:02:55.917 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:02:55.918 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:02:55.918 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:02:56.232 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:02:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:56.267 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:02:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:58.072 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:02:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:02:58.073 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:02:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:00.615 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:03:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:04.272 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:03:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:04.326 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:03:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:05.919 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:03:05.919 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:03:06.157 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:06.157 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:03:06.157 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#238
+2024-12-08 14:03:06.157 INFO     [main.py:154] number of adaptations: 47
+2024-12-08 14:03:06.158 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:03:06.158 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:06.158 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:03:06.284 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:03:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:06.317 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:03:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:08.212 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:03:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:08.215 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:03:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:10.842 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:03:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:14.366 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:03:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:14.761 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:03:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:16.160 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:03:16.160 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:03:16.328 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:03:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:16.353 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:16.353 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:03:16.353 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#193
+2024-12-08 14:03:16.354 INFO     [main.py:154] number of adaptations: 48
+2024-12-08 14:03:16.354 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:03:16.354 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:16.354 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:03:16.371 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:03:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:18.348 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:03:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:18.349 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:03:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:21.115 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:03:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:24.810 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:03:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:25.304 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:03:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:26.354 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:03:26.354 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:03:26.382 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:03:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:26.422 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:03:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:26.563 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:26.563 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:03:26.563 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#209
+2024-12-08 14:03:26.563 INFO     [main.py:154] number of adaptations: 49
+2024-12-08 14:03:26.563 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:03:26.563 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:26.564 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:03:28.485 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:03:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:28.486 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:03:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:31.354 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:03:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:35.473 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:03:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:35.485 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:03:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:36.429 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:03:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:36.466 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:03:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:36.564 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:03:36.564 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:03:36.891 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:36.891 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:03:36.892 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#328
+2024-12-08 14:03:36.892 INFO     [main.py:154] number of adaptations: 50
+2024-12-08 14:03:36.892 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:03:36.892 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:36.892 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:03:38.522 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:03:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:38.527 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:03:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:41.594 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:03:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:45.681 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:03:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:45.685 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:03:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:46.474 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:03:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:46.509 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:03:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:46.892 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:03:46.892 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:03:47.151 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:47.151 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:03:47.152 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#260
+2024-12-08 14:03:47.152 INFO     [main.py:154] number of adaptations: 51
+2024-12-08 14:03:47.152 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:03:47.152 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:47.152 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:03:48.560 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:03:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:48.568 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:03:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:51.841 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:03:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:55.829 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:03:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:55.830 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:03:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:56.520 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:03:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:56.557 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:03:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:57.153 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:03:57.153 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:03:57.387 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:57.387 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:03:57.388 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#235
+2024-12-08 14:03:57.388 INFO     [main.py:154] number of adaptations: 52
+2024-12-08 14:03:57.388 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:03:57.388 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:03:57.388 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:03:58.690 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:03:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:03:58.691 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:03:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:02.068 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:04:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:05.971 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:04:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:05.986 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:04:05] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:06.575 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:04:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:06.602 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:04:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:07.389 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:04:07.389 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:04:07.623 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:07.623 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:04:07.623 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#234
+2024-12-08 14:04:07.623 INFO     [main.py:154] number of adaptations: 53
+2024-12-08 14:04:07.623 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:04:07.623 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:07.623 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:04:08.830 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:04:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:08.830 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:04:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:12.296 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:04:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:16.110 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:04:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:16.120 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:04:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:16.617 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:04:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:16.648 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:04:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:17.624 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:04:17.624 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:04:17.878 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:17.878 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:04:17.878 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#254
+2024-12-08 14:04:17.878 INFO     [main.py:154] number of adaptations: 54
+2024-12-08 14:04:17.878 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:04:17.878 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:17.878 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:04:18.970 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:04:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:18.970 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:04:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:22.541 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:04:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:26.244 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:04:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:26.246 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:04:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:26.675 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:04:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:26.699 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:04:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:27.880 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:04:27.880 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:04:28.111 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:28.111 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:04:28.111 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#231
+2024-12-08 14:04:28.111 INFO     [main.py:154] number of adaptations: 55
+2024-12-08 14:04:28.111 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:04:28.111 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:28.111 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:04:29.108 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:04:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:29.109 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:04:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:32.802 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:04:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:36.377 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:04:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:36.390 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:04:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:36.724 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:04:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:36.748 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:04:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:38.112 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:04:38.112 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:04:38.360 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:38.360 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:04:38.360 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#248
+2024-12-08 14:04:38.360 INFO     [main.py:154] number of adaptations: 56
+2024-12-08 14:04:38.360 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:04:38.361 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:38.361 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:04:39.243 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:04:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:39.244 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:04:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:43.012 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:04:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:46.775 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:04:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:46.799 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:04:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:46.812 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:04:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:46.829 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:04:46] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:48.362 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:04:48.362 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:04:48.666 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:48.666 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:04:48.666 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#304
+2024-12-08 14:04:48.666 INFO     [main.py:154] number of adaptations: 57
+2024-12-08 14:04:48.667 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:04:48.667 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:48.667 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:04:49.447 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:04:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:49.448 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:04:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:53.272 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:04:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:56.822 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:04:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:56.848 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:04:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:56.963 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:04:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:56.972 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:04:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:58.668 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:04:58.668 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:04:58.830 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:58.830 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:04:58.830 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#162
+2024-12-08 14:04:58.830 INFO     [main.py:154] number of adaptations: 58
+2024-12-08 14:04:58.831 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:04:58.831 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:04:58.831 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:04:59.483 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:04:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:04:59.489 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:04:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:03.517 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:05:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:06.870 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:05:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:06.896 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:05:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:07.105 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:05:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:07.205 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:05:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:08.832 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:05:08.832 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:05:09.236 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:09.236 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:05:09.236 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#404
+2024-12-08 14:05:09.237 INFO     [main.py:154] number of adaptations: 59
+2024-12-08 14:05:09.237 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:05:09.237 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:09.237 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:05:09.516 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:05:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:09.534 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:05:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:13.744 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:05:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:16.913 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:05:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:16.942 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:05:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:17.245 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:05:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:17.254 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:05:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:19.238 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:05:19.238 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:05:19.519 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:19.519 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:05:19.519 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#281
+2024-12-08 14:05:19.519 INFO     [main.py:154] number of adaptations: 60
+2024-12-08 14:05:19.519 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:05:19.519 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:19.519 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:05:19.552 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:05:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:19.575 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:05:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:24.002 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:05:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:26.955 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:05:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:26.997 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:05:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:27.326 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:05:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:27.378 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:05:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:29.521 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:05:29.521 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:05:29.727 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:05:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:29.731 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:05:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:29.939 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:29.939 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:05:29.939 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#418
+2024-12-08 14:05:29.939 INFO     [main.py:154] number of adaptations: 61
+2024-12-08 14:05:29.940 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:05:29.940 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:29.940 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:05:34.238 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:05:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:37.008 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:05:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:37.045 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:05:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:37.412 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:05:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:37.909 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:05:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:39.941 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:05:39.941 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:05:39.963 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:05:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:39.966 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:05:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:40.265 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:40.265 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:05:40.265 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#324
+2024-12-08 14:05:40.265 INFO     [main.py:154] number of adaptations: 62
+2024-12-08 14:05:40.265 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:05:40.265 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:40.266 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:05:44.473 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:05:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:47.057 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:05:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:47.093 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:05:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:47.962 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:05:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:48.164 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:05:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:50.206 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:05:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:50.208 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:05:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:50.266 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:05:50.266 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:05:50.505 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:50.506 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:05:50.506 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#240
+2024-12-08 14:05:50.506 INFO     [main.py:154] number of adaptations: 63
+2024-12-08 14:05:50.506 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:05:50.506 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:05:50.506 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:05:54.718 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:05:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:57.104 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:05:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:57.136 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:05:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:58.182 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:05:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:05:58.404 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:05:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:00.312 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:06:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:00.313 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:06:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:00.507 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:06:00.507 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:06:00.747 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:00.747 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:06:00.747 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#240
+2024-12-08 14:06:00.747 INFO     [main.py:154] number of adaptations: 64
+2024-12-08 14:06:00.747 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:06:00.747 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:00.747 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:06:04.946 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:06:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:07.142 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:06:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:07.181 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:06:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:08.507 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:06:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:08.521 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:06:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:10.346 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:06:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:10.358 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:06:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:10.748 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:06:10.748 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:06:11.088 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:11.088 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:06:11.088 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#340
+2024-12-08 14:06:11.088 INFO     [main.py:154] number of adaptations: 65
+2024-12-08 14:06:11.088 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:06:11.088 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:11.088 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:06:15.217 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:06:15] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:17.191 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:06:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:17.235 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:06:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:18.664 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:06:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:18.679 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:06:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:20.409 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:06:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:20.410 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:06:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:21.089 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:06:21.089 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:06:21.344 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:21.344 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:06:21.344 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#255
+2024-12-08 14:06:21.345 INFO     [main.py:154] number of adaptations: 66
+2024-12-08 14:06:21.345 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:06:21.345 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:21.345 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:06:25.431 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:06:25] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:27.252 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:06:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:27.276 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:06:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:28.760 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:06:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:29.023 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:06:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:30.444 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:06:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:30.454 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:06:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:31.346 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:06:31.346 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:06:31.773 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:31.773 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:06:31.773 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#427
+2024-12-08 14:06:31.773 INFO     [main.py:154] number of adaptations: 67
+2024-12-08 14:06:31.773 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:06:31.773 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:31.773 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:06:35.663 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:06:35] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:37.360 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:06:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:37.371 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:06:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:39.055 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:06:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:39.159 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:06:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:40.587 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:06:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:40.588 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:06:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:41.774 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:06:41.774 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:06:42.012 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:42.012 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:06:42.012 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#238
+2024-12-08 14:06:42.012 INFO     [main.py:154] number of adaptations: 68
+2024-12-08 14:06:42.012 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:06:42.012 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:42.013 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:06:45.886 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:06:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:47.404 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:06:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:47.415 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:06:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:49.199 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:06:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:49.297 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:06:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:50.721 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:06:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:50.723 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:06:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:52.013 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:06:52.013 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:06:52.365 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:52.366 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:06:52.366 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#353
+2024-12-08 14:06:52.366 INFO     [main.py:154] number of adaptations: 69
+2024-12-08 14:06:52.366 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:06:52.366 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:06:52.366 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:06:56.151 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:06:56] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:57.455 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:06:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:57.466 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:06:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:59.339 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:06:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:06:59.432 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:06:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:00.860 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:07:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:00.860 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:07:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:02.367 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:07:02.367 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:07:02.620 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:02.620 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:07:02.620 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#253
+2024-12-08 14:07:02.620 INFO     [main.py:154] number of adaptations: 70
+2024-12-08 14:07:02.620 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:07:02.620 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:02.620 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:07:06.245 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:07:06] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:07.503 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:07:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:07.520 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:07:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:09.473 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:07:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:09.571 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:07:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:10.998 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:07:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:10.999 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:07:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:12.621 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:07:12.621 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:07:13.056 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:13.057 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:07:13.057 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#436
+2024-12-08 14:07:13.057 INFO     [main.py:154] number of adaptations: 71
+2024-12-08 14:07:13.057 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:07:13.057 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:13.057 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:07:16.517 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:07:16] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:17.546 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:07:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:17.567 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:07:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:19.787 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:07:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:19.801 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:07:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:21.030 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:07:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:21.041 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:07:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:23.058 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:07:23.058 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:07:23.584 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:23.584 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:07:23.584 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#526
+2024-12-08 14:07:23.584 INFO     [main.py:154] number of adaptations: 72
+2024-12-08 14:07:23.584 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:07:23.584 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:23.584 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:07:26.741 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:07:26] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:27.591 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:07:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:27.613 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:07:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:29.941 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:07:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:29.951 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:07:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:31.166 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:07:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:31.167 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:07:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:33.585 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:07:33.585 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:07:34.031 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:34.031 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:07:34.031 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#446
+2024-12-08 14:07:34.031 INFO     [main.py:154] number of adaptations: 73
+2024-12-08 14:07:34.031 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:07:34.031 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:34.031 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:07:36.982 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:07:36] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:37.640 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:07:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:37.663 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:07:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:40.088 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:07:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:40.098 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:07:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:41.309 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:07:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:41.309 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:07:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:44.032 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:07:44.032 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:07:44.475 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:44.476 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:07:44.476 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#444
+2024-12-08 14:07:44.476 INFO     [main.py:154] number of adaptations: 74
+2024-12-08 14:07:44.476 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:07:44.476 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:44.476 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:07:47.249 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:07:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:47.697 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:07:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:47.714 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:07:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:50.160 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:07:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:50.221 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:07:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:51.441 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:07:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:51.442 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:07:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:54.477 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:07:54.477 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:07:54.918 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:54.918 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:07:54.918 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#441
+2024-12-08 14:07:54.918 INFO     [main.py:154] number of adaptations: 75
+2024-12-08 14:07:54.918 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:07:54.918 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:07:54.918 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:07:57.412 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:07:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:57.743 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:07:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:07:57.763 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:07:57] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:00.262 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:08:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:00.359 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:08:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:01.581 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:08:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:01.582 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:08:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:04.919 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:08:04.919 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:08:05.365 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:05.365 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:08:05.365 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#446
+2024-12-08 14:08:05.365 INFO     [main.py:154] number of adaptations: 76
+2024-12-08 14:08:05.365 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:08:05.365 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:05.365 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:08:07.606 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:08:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:07.782 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:08:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:07.813 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:08:07] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:10.408 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:08:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:10.414 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:08:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:11.718 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:08:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:11.719 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:08:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:15.366 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:08:15.366 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:08:15.815 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:15.815 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:08:15.815 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#449
+2024-12-08 14:08:15.816 INFO     [main.py:154] number of adaptations: 77
+2024-12-08 14:08:15.816 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:08:15.816 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:15.816 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:08:17.831 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:08:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:17.857 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:08:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:17.875 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:08:17] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:20.539 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:08:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:20.546 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:08:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:21.855 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:08:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:21.855 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:08:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:25.817 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:08:25.817 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:08:26.353 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:26.353 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:08:26.353 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#536
+2024-12-08 14:08:26.353 INFO     [main.py:154] number of adaptations: 78
+2024-12-08 14:08:26.353 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:08:26.354 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:26.354 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:08:27.881 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:08:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:27.904 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:08:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:27.983 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:08:27] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:30.756 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:08:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:30.777 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:08:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:31.888 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:08:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:31.900 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:08:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:36.355 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:08:36.355 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:08:37.312 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:37.312 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:08:37.312 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#957
+2024-12-08 14:08:37.312 INFO     [main.py:154] number of adaptations: 79
+2024-12-08 14:08:37.312 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:08:37.312 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:37.313 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:08:37.927 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:08:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:37.951 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:08:37] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:38.123 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:08:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:40.959 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:08:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:40.974 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:08:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:42.212 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:08:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:42.219 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:08:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:47.314 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:08:47.314 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:08:47.455 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:47.455 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:08:47.455 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#141
+2024-12-08 14:08:47.455 INFO     [main.py:154] number of adaptations: 80
+2024-12-08 14:08:47.455 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:08:47.455 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:47.455 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:08:47.977 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:08:47] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:48.003 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:08:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:48.238 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:08:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:51.068 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:08:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:51.078 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:08:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:52.268 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:08:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:52.270 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:08:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:57.456 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:08:57.456 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:08:57.993 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:57.993 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:08:57.993 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#537
+2024-12-08 14:08:57.993 INFO     [main.py:154] number of adaptations: 81
+2024-12-08 14:08:57.993 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:08:57.993 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:08:57.993 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:08:58.027 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:08:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:58.047 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:08:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:08:58.344 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:08:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:01.168 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:09:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:01.187 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:09:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:02.405 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:09:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:02.406 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:09:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:07.994 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:09:07.994 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:09:08.074 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:09:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:08.098 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:09:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:08.319 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:08.319 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:09:08.319 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#325
+2024-12-08 14:09:08.319 INFO     [main.py:154] number of adaptations: 82
+2024-12-08 14:09:08.319 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:09:08.319 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:08.319 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:09:08.470 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:09:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:11.270 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:09:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:11.327 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:09:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:12.543 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:09:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:12.543 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:09:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:18.123 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:09:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:18.148 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:09:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:18.320 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:09:18.320 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:09:18.552 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:18.553 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:09:18.553 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#233
+2024-12-08 14:09:18.553 INFO     [main.py:154] number of adaptations: 83
+2024-12-08 14:09:18.553 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:09:18.553 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:18.553 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:09:18.574 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:09:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:21.357 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:09:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:21.755 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:09:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:22.575 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:09:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:22.588 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:09:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:28.166 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:09:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:28.197 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:09:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:28.554 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:09:28.554 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:09:28.704 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:09:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:28.903 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:28.903 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:09:28.903 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#349
+2024-12-08 14:09:28.903 INFO     [main.py:154] number of adaptations: 84
+2024-12-08 14:09:28.903 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:09:28.903 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:28.903 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:09:31.816 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:09:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:31.905 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:09:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:32.714 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:09:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:32.715 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:09:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:38.213 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:09:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:38.246 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:09:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:38.861 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:09:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:38.904 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:09:38.904 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:09:39.247 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:39.247 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:09:39.247 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#343
+2024-12-08 14:09:39.248 INFO     [main.py:154] number of adaptations: 85
+2024-12-08 14:09:39.248 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:09:39.248 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:39.248 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:09:41.946 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:09:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:42.041 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:09:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:42.852 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:09:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:42.853 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:09:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:48.268 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:09:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:48.294 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:09:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:48.980 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:09:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:49.249 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:09:49.249 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:09:49.618 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:49.618 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:09:49.618 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#369
+2024-12-08 14:09:49.618 INFO     [main.py:154] number of adaptations: 86
+2024-12-08 14:09:49.618 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:09:49.618 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:09:49.618 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:09:52.082 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:09:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:52.283 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:09:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:52.933 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:09:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:52.934 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:09:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:58.318 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:09:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:58.342 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:09:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:59.094 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:09:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:09:59.619 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:09:59.619 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:10:00.072 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:00.072 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:10:00.072 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#453
+2024-12-08 14:10:00.072 INFO     [main.py:154] number of adaptations: 87
+2024-12-08 14:10:00.072 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:10:00.072 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:00.072 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:10:02.350 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:10:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:02.521 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:10:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:02.965 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:10:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:02.974 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:10:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:08.367 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:10:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:08.389 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:10:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:09.195 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:10:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:10.073 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:10:10.073 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:10:10.366 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:10.366 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:10:10.366 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#293
+2024-12-08 14:10:10.366 INFO     [main.py:154] number of adaptations: 88
+2024-12-08 14:10:10.366 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:10:10.366 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:10.366 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:10:12.568 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:10:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:12.655 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:10:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:13.060 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:10:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:13.061 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:10:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:18.417 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:10:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:18.443 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:10:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:19.314 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:10:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:20.368 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:10:20.368 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:10:20.699 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:20.699 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:10:20.699 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#331
+2024-12-08 14:10:20.699 INFO     [main.py:154] number of adaptations: 89
+2024-12-08 14:10:20.699 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:10:20.699 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:20.699 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:10:22.689 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:10:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:22.705 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:10:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:23.094 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:10:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:23.101 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:10:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:28.463 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:10:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:28.490 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:10:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:29.440 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:10:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:30.700 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:10:30.700 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:10:31.107 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:31.107 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:10:31.107 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#407
+2024-12-08 14:10:31.107 INFO     [main.py:154] number of adaptations: 90
+2024-12-08 14:10:31.107 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:10:31.107 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:31.107 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:10:32.814 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:10:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:32.823 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:10:32] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:33.126 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:10:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:33.146 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:10:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:38.511 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:10:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:38.536 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:10:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:39.537 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:10:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:41.107 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:10:41.107 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:10:41.496 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:41.496 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:10:41.497 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#390
+2024-12-08 14:10:41.497 INFO     [main.py:154] number of adaptations: 91
+2024-12-08 14:10:41.497 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:10:41.497 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:41.497 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:10:42.908 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:10:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:42.920 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:10:42] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:43.164 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:10:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:43.191 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:10:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:48.559 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:10:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:48.584 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:10:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:49.658 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:10:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:51.498 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:10:51.498 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:10:51.818 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:51.819 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:10:51.819 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#321
+2024-12-08 14:10:51.819 INFO     [main.py:154] number of adaptations: 92
+2024-12-08 14:10:51.819 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:10:51.819 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:10:51.819 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:10:52.987 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:10:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:52.992 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:10:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:53.195 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:10:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:53.233 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:10:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:58.610 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:10:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:58.629 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:10:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:10:59.770 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:10:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:01.820 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:11:01.820 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:11:02.202 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:02.202 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:11:02.202 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#382
+2024-12-08 14:11:02.202 INFO     [main.py:154] number of adaptations: 93
+2024-12-08 14:11:02.203 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:11:02.203 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:02.203 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:11:03.056 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:11:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:03.067 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:11:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:03.225 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:11:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:03.274 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:11:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:08.652 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:11:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:08.676 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:11:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:09.878 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:11:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:12.203 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:11:12.203 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:11:13.060 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:13.060 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:11:13.060 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#857
+2024-12-08 14:11:13.060 INFO     [main.py:154] number of adaptations: 94
+2024-12-08 14:11:13.060 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:11:13.060 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:13.060 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:11:13.166 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:11:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:13.173 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:11:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:13.265 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:11:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:13.319 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:11:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:18.702 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:11:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:18.725 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:11:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:19.971 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:11:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:23.061 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:11:23.061 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:11:23.295 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:11:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:23.297 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:11:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:23.406 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:11:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:23.412 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:11:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:23.500 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:23.500 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:11:23.500 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#439
+2024-12-08 14:11:23.500 INFO     [main.py:154] number of adaptations: 95
+2024-12-08 14:11:23.501 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:11:23.501 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:23.501 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:11:28.753 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:11:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:28.770 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:11:28] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:30.090 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:11:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:33.332 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:11:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:33.466 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:11:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:33.467 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:11:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:33.468 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:11:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:33.502 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:11:33.502 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:11:33.844 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:33.844 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:11:33.844 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#342
+2024-12-08 14:11:33.844 INFO     [main.py:154] number of adaptations: 96
+2024-12-08 14:11:33.844 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:11:33.844 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:33.845 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:11:38.805 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:11:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:38.821 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:11:38] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:40.225 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:11:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:43.371 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:11:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:43.518 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:11:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:43.521 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:11:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:43.544 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:11:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:43.846 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:11:43.846 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:11:44.196 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:44.197 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:11:44.197 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#351
+2024-12-08 14:11:44.197 INFO     [main.py:154] number of adaptations: 97
+2024-12-08 14:11:44.197 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:11:44.197 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:44.197 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:11:48.849 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:11:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:48.872 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:11:48] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:50.338 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:11:50] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:53.507 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:11:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:53.564 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:11:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:53.568 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:11:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:53.621 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:11:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:54.198 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:11:54.198 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:11:54.735 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:54.735 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:11:54.735 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#537
+2024-12-08 14:11:54.735 INFO     [main.py:154] number of adaptations: 98
+2024-12-08 14:11:54.735 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:11:54.735 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:11:54.735 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:11:58.899 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:11:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:11:58.922 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:11:58] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:00.464 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:12:00] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:03.646 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:12:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:03.647 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:12:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:03.654 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:12:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:03.698 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:12:03] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:04.737 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:12:04.737 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:12:05.076 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:05.076 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:12:05.076 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#339
+2024-12-08 14:12:05.076 INFO     [main.py:154] number of adaptations: 99
+2024-12-08 14:12:05.076 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:12:05.076 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:05.076 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:12:08.951 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:12:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:08.972 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:12:08] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:10.602 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:12:10] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:13.680 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:12:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:13.699 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:12:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:13.702 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:12:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:13.771 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:12:13] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:15.077 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:12:15.077 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:12:15.317 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:15.318 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:12:15.318 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#241
+2024-12-08 14:12:15.318 INFO     [main.py:154] number of adaptations: 100
+2024-12-08 14:12:15.318 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:12:15.318 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:15.318 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:12:18.999 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:12:18] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:19.017 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:12:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:20.720 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:12:20] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:23.820 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:12:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:23.820 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:12:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:23.823 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:12:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:23.849 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:12:23] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:25.318 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:12:25.318 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:12:25.659 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:25.659 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:12:25.659 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#341
+2024-12-08 14:12:25.659 INFO     [main.py:154] number of adaptations: 101
+2024-12-08 14:12:25.659 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:12:25.660 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:25.660 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:12:29.050 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:12:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:29.068 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:12:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:30.839 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:12:30] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:33.933 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:12:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:33.944 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:12:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:33.945 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:12:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:33.951 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:12:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:35.661 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:12:35.661 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:12:36.205 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:36.205 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:12:36.205 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#544
+2024-12-08 14:12:36.205 INFO     [main.py:154] number of adaptations: 102
+2024-12-08 14:12:36.205 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:12:36.205 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:36.205 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:12:39.102 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:12:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:39.121 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:12:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:40.943 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:12:40] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:44.069 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:12:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:44.077 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:12:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:44.087 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:12:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:44.092 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:12:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:46.206 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:12:46.206 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:12:46.651 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:46.651 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:12:46.651 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#445
+2024-12-08 14:12:46.652 INFO     [main.py:154] number of adaptations: 103
+2024-12-08 14:12:46.652 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:12:46.652 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:46.652 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:12:49.145 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:12:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:49.169 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:12:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:51.062 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:12:51] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:54.132 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:12:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:54.139 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:12:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:54.148 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:12:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:54.149 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:12:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:56.653 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:12:56.653 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:12:57.094 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:57.094 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:12:57.094 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#441
+2024-12-08 14:12:57.094 INFO     [main.py:154] number of adaptations: 104
+2024-12-08 14:12:57.094 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:12:57.094 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:12:57.094 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:12:59.196 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:12:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:12:59.217 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:12:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:01.205 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:13:01] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:04.166 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:13:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:04.195 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:13:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:04.199 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:13:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:04.227 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:13:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:07.095 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:13:07.095 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:13:07.557 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:07.558 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:13:07.558 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#463
+2024-12-08 14:13:07.558 INFO     [main.py:154] number of adaptations: 105
+2024-12-08 14:13:07.558 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:13:07.558 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:07.558 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:13:09.251 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:13:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:09.267 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:13:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:11.312 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:13:11] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:14.202 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:13:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:14.244 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:13:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:14.245 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:13:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:14.310 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:13:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:17.559 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:13:17.559 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:13:17.912 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:17.912 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:13:17.912 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#353
+2024-12-08 14:13:17.912 INFO     [main.py:154] number of adaptations: 106
+2024-12-08 14:13:17.912 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:13:17.912 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:17.913 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:13:19.326 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:13:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:19.331 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:13:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:21.448 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:13:21] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:24.335 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:13:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:24.337 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:13:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:24.342 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:13:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:24.385 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:13:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:27.913 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:13:27.913 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:13:28.445 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:28.445 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:13:28.445 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#532
+2024-12-08 14:13:28.445 INFO     [main.py:154] number of adaptations: 107
+2024-12-08 14:13:28.445 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:13:28.445 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:28.445 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:13:29.365 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:13:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:29.374 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:13:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:31.693 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:13:31] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:34.458 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:13:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:34.468 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:13:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:34.471 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:13:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:34.475 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:13:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:38.446 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:13:38.446 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:13:38.874 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:38.874 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:13:38.874 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#428
+2024-12-08 14:13:38.875 INFO     [main.py:154] number of adaptations: 108
+2024-12-08 14:13:38.875 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:13:38.875 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:38.875 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:13:39.409 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:13:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:39.424 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:13:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:41.930 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:13:41] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:44.530 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:13:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:44.539 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:13:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:44.540 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:13:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:44.546 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:13:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:48.875 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:13:48.875 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:13:49.254 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:49.254 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:13:49.254 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#379
+2024-12-08 14:13:49.254 INFO     [main.py:154] number of adaptations: 109
+2024-12-08 14:13:49.255 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:13:49.255 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:49.255 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:13:49.478 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:13:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:49.486 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:13:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:52.190 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:13:52] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:54.609 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:13:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:54.618 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:13:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:54.629 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:13:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:54.634 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:13:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:59.256 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:13:59.256 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:13:59.523 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:13:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:59.542 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:13:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:13:59.556 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:59.556 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:13:59.556 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#300
+2024-12-08 14:13:59.556 INFO     [main.py:154] number of adaptations: 110
+2024-12-08 14:13:59.557 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:13:59.557 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:13:59.557 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:14:02.413 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:14:02] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:04.663 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:14:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:04.683 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:14:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:04.686 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:14:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:04.694 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:14:04] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:09.557 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:14:09.557 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:14:09.577 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:14:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:09.595 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:14:09] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:09.862 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:09.862 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:14:09.862 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#305
+2024-12-08 14:14:09.862 INFO     [main.py:154] number of adaptations: 111
+2024-12-08 14:14:09.862 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:14:09.862 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:09.862 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:14:12.668 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:14:12] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:14.717 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:14:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:14.736 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:14:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:14.747 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:14:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:14.753 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:14:14] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:19.623 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:14:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:19.643 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:14:19] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:19.863 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:14:19.863 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:14:20.218 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:20.218 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:14:20.218 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#355
+2024-12-08 14:14:20.218 INFO     [main.py:154] number of adaptations: 112
+2024-12-08 14:14:20.218 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:14:20.218 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:20.218 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:14:22.906 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:14:22] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:24.832 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:14:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:24.848 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:14:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:24.850 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:14:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:24.858 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:14:24] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:29.684 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:14:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:29.703 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:14:29] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:30.219 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:14:30.219 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:14:30.595 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:30.595 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:14:30.595 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#376
+2024-12-08 14:14:30.595 INFO     [main.py:154] number of adaptations: 113
+2024-12-08 14:14:30.595 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:14:30.595 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:30.595 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:14:33.133 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:14:33] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:34.882 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:14:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:34.904 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:14:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:34.908 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:14:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:34.917 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:14:34] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:39.738 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:14:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:39.753 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:14:39] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:40.596 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:14:40.596 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:14:41.053 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:41.053 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:14:41.053 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#457
+2024-12-08 14:14:41.053 INFO     [main.py:154] number of adaptations: 114
+2024-12-08 14:14:41.054 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:14:41.054 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:41.054 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:14:43.380 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:14:43] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:44.913 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:14:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:44.950 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:14:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:44.984 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:14:44] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:45.002 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:14:45] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:49.783 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:14:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:49.800 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:14:49] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:51.055 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:14:51.055 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:14:51.442 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:51.442 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:14:51.442 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#387
+2024-12-08 14:14:51.442 INFO     [main.py:154] number of adaptations: 115
+2024-12-08 14:14:51.442 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:14:51.442 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:14:51.442 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:14:53.511 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:14:53] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:54.957 INFO     [_internal.py:97] 192.168.56.30 - - [08/Dec/2024 14:14:54] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:55.012 INFO     [_internal.py:97] 192.168.56.31 - - [08/Dec/2024 14:14:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:55.045 INFO     [_internal.py:97] 192.168.56.23 - - [08/Dec/2024 14:14:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:55.056 INFO     [_internal.py:97] 192.168.56.24 - - [08/Dec/2024 14:14:55] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:59.826 INFO     [_internal.py:97] 192.168.56.32 - - [08/Dec/2024 14:14:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:14:59.849 INFO     [_internal.py:97] 192.168.56.33 - - [08/Dec/2024 14:14:59] "GET /get_security_level HTTP/1.1" 200 -
+2024-12-08 14:15:01.443 WARNING  [main.py:148] >>>STARTING-ADAPTATION
+2024-12-08 14:15:01.443 INFO     [main.py:36] Checking adaptations...
+2024-12-08 14:15:01.778 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:15:01.778 INFO     [main.py:58] Checked adaptations: New criticality: 2
+2024-12-08 14:15:01.778 WARNING  [main.py:150] >>>FINISHED-ADAPTATION#335
+2024-12-08 14:15:01.778 INFO     [main.py:154] number of adaptations: 116
+2024-12-08 14:15:01.778 INFO     [icmp_control.py:24] Pausing ICMP thread...
+2024-12-08 14:15:01.778 INFO     [icmp_control.py:29] Resuming ICMP thread...
+2024-12-08 14:15:01.778 INFO     [DefconHandler.py:64] Decreased defcon mode to: defcon_3_normal
+2024-12-08 14:15:03.753 INFO     [_internal.py:97] 192.168.56.28 - - [08/Dec/2024 14:15:03] "GET /get_security_level HTTP/1.1" 200 -
