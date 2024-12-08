@@ -115,6 +115,7 @@ def init_ip_tree(is_first_init=False):
             traverse_child_ips(child_ip=child_ip)
 
     if is_first_init:
+        logging.info(f"Initializing IP tree with following IP addresses:{ips_to_check}")
         number_of_subsystems = len(ips_to_check)
 
 
