@@ -37,4 +37,13 @@ deactivate
 # to execute the program vai the virtual environment
 sudo venv311/bin/python main.py
 
+# git commands for switching branch
+git remote add origin https://github.com/jku-lit-scsl/seams25-sec-arch.git
+git fetch origin
+
+# see whats running on port 5000
+sudo lsof -i :5000
+
+# kill the process with the ID 1234
+sudo kill 1234
 ```
