@@ -9,7 +9,7 @@ from requests import RequestException
 import config.config as CONFIG
 from sec_levels.DefconHandler import DefconHandler
 from server.server import start_flask_server
-from util.utils import setup_logging
+from util.utils import setup_logging, get_current_time_in_millis
 
 ips_to_check = []
 number_of_subsystems = -1
@@ -19,7 +19,7 @@ in_SoS_Mode = False
 
 def switch_to_sos_mode(ip):
     global in_SoS_Mode
-    logging.warning(f"Could not reach ip: {ip}")
+    logging.info(f"Could not reach ip: {ip}")
     if not in_SoS_Mode:
         # perform meta-adaptation scale down to smaller SoS subsystem
         logging.info("Switching to SoS mode")
@@ -55,7 +55,7 @@ def check_adaptations():
 
     if max_criticality > current_own_sec_level:
         defcon_handler.increase_security_level(max_criticality)
-        logging.warning(f"Checked adaptations: New criticality: {max_criticality}")
+        logging.info(f"Checked adaptations: New criticality: {max_criticality}")
     else:
         logging.info("Checked adaptations: no adaptations required.")
 
@@ -141,8 +141,18 @@ if __name__ == "__main__":
         logging.error('Did not find any ips to check for adaptation. ABORTING')
         sys.exit(0)
 
+    adaptation_counter = 0
     while True:
+        # print timings tta
+        start_time = get_current_time_in_millis()
+        logging.warning(">>>STARTING-ADAPTATION")
         check_adaptations()
+        logging.warning(f">>>FINISHED-ADAPTATION#{get_current_time_in_millis() - start_time}")
+        # reset for next cycle
+        while defcon_handler.current_state.value != 1:
+            adaptation_counter += 1
+            logging.info(f"number of adaptations: {adaptation_counter}")
+            defcon_handler.decrease()
 
         # to iteratively check to get back to normal mode every minute
         if in_SoS_Mode:

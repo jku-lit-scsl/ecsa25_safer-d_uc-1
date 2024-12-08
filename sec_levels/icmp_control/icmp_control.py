@@ -91,7 +91,7 @@ class ICMPThreadRateLimiting(ICMPThread):
                 if self.is_ip_valid(src_ip):
                     handle_ping(src_ip)
                 else:
-                    logging.warning(f"Rate limit exceeded for {src_ip}. Dropping packet.")
+                    logging.info(f"Rate limit exceeded for {src_ip}. Dropping packet.")
 
         while not self._stop_event.is_set():
             # Check if the thread is paused
@@ -112,7 +112,7 @@ class ICMPThreadBlocker(ICMPThread):
 
         def process_packet(packet):
             """Callback to handle each sniffed packet."""
-            logging.warning("Blocked ICMP packet.")
+            logging.info("Blocked ICMP packet.")
 
         while not self._stop_event.is_set():
             # Check if the thread is paused
