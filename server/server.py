@@ -3,6 +3,7 @@ import threading
 from flask import Flask, jsonify
 
 import config.config as CONFIG
+from main import in_SoS_Mode
 from sec_levels.DefconHandler import DefconHandler
 
 app = Flask(__name__)
@@ -18,6 +19,11 @@ def increase_security_level():
     defcon_handler = DefconHandler()
     defcon_handler.increase()
     return "Success"
+
+
+@app.route('/in_sos_mode')
+def in_sos_mode():
+    return jsonify(is_in_SoS_mode=in_SoS_Mode)
 
 
 @app.route('/decrease_security_level')
