@@ -4,6 +4,7 @@ import sys
 import time
 
 import requests
+from requests import RequestException
 
 import config.config as CONFIG
 from sec_levels.DefconHandler import DefconHandler
@@ -41,7 +42,7 @@ def check_adaptations():
             else:
                 switch_to_sos_mode(ip)
                 break
-        except ConnectionError:
+        except RequestException:
             switch_to_sos_mode(ip)
             break
 
