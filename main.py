@@ -47,7 +47,9 @@ def check_adaptations():
             switch_to_sos_mode(ip)
             break
 
-    max_criticality = max(ip_sec_levels)
+    max_criticality = -1
+    if len(ip_sec_levels) > 0:
+        max_criticality = max(ip_sec_levels)
 
     if max_criticality > current_own_sec_level:
         defcon_handler.increase_security_level(max_criticality)
