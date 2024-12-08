@@ -9,22 +9,19 @@ from requests import RequestException
 import config.config as CONFIG
 from sec_levels.DefconHandler import DefconHandler
 from server.server import start_flask_server
+from util import sos_state_module
 from util.utils import setup_logging, get_current_time_in_millis
 
 ips_to_check = []
 number_of_subsystems = -1
 defcon_handler = DefconHandler()
-in_SoS_Mode = False
-sos_id = ""
-
 
 def switch_to_sos_mode(ip):
-    global in_SoS_Mode
     logging.info(f"Could not reach ip: {ip}")
-    if not in_SoS_Mode:
+    if not sos_state_module.in_SoS_Mode:
         # perform meta-adaptation scale down to smaller SoS subsystem
         logging.info("Switching to SoS mode")
-        in_SoS_Mode = True
+        sos_state_module.in_SoS_Mode = True
         init_ip_tree()
 
 
@@ -151,7 +148,7 @@ if __name__ == "__main__":
         check_adaptations()
 
         # to iteratively check to get back to normal mode every minute
-        if in_SoS_Mode:
+        if sos_state_module.in_SoS_Mode:
             if not adapt_counter_flag:
                 adaptation_counter = adaptation_counter + 1
                 logging.info(f"Number of adaptations: {adaptation_counter}")
@@ -160,7 +157,7 @@ if __name__ == "__main__":
             init_ip_tree()
             if len(ips_to_check) == number_of_subsystems:
                 # connection back to all the relevant systems is possible -> adapt back to normal
-                in_SoS_Mode = False
+                sos_state_module.in_SoS_Mode = False
                 logging.info("Left SoS mode")
                 adapt_counter_flag = False
             else:
