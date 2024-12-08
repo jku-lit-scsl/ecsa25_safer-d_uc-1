@@ -19,10 +19,12 @@ in_SoS_Mode = False
 
 def switch_to_sos_mode(ip):
     global in_SoS_Mode
-    # perform meta-adaptation scale down to smaller SoS subsystem
     logging.warning(f"Could not reach ip: {ip}")
-    in_SoS_Mode = True
-    init_ip_tree()
+    if not in_SoS_Mode:
+        # perform meta-adaptation scale down to smaller SoS subsystem
+        logging.info("Switching to SoS mode")
+        in_SoS_Mode = True
+        init_ip_tree()
 
 
 def check_adaptations():
@@ -30,7 +32,7 @@ def check_adaptations():
     Checks all the related subsystems for criticality
     :return: void
     """
-    global ips_to_check, in_SoS_Mode
+    global ips_to_check
     logging.info('Checking adaptations...')
     current_own_sec_level = defcon_handler.get_current_security_level().value
     ip_sec_levels = []
@@ -138,16 +140,15 @@ if __name__ == "__main__":
         logging.error('Did not find any ips to check for adaptation. ABORTING')
         sys.exit(0)
 
-    counter = 0
     while True:
         check_adaptations()
-        counter += 1
 
         # to iteratively check to get back to normal mode every minute
-        if in_SoS_Mode and counter % 6 == 0:
+        if in_SoS_Mode:
             init_ip_tree()
             if len(ips_to_check) == number_of_subsystems:
                 # connection back to all the relevant systems is possible -> adapt back to normal
                 in_SoS_Mode = False
+                logging.info("Left SoS mode")
 
         time.sleep(10)
