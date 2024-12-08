@@ -143,7 +143,6 @@ if __name__ == "__main__":
         sys.exit(0)
 
     adaptation_counter = 0
-    ip_chaos_device = '192.168.56.24'
     while True:
         # print timings tta
         logging.warning(">>>STARTING-SOS-ADAPTATION")
