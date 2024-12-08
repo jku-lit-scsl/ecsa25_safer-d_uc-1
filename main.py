@@ -135,7 +135,7 @@ def setup():
 if __name__ == "__main__":
     setup()
     # just in case wait for the other systems to come up
-    time.sleep(30)
+    time.sleep(5)
     # parse entire hierarchy once
     init_ip_tree(True)
     if len(ips_to_check) == 0:
@@ -145,15 +145,12 @@ if __name__ == "__main__":
     adaptation_counter = 0
     while True:
         # print timings tta
-        logging.warning(">>>STARTING-SOS-ADAPTATION")
         start_time = get_current_time_in_millis()
         check_adaptations()
 
         # to iteratively check to get back to normal mode every minute
         if in_SoS_Mode:
             adaptation_counter = adaptation_counter + 1
-            logging.info(f"Number of adaptations: {adaptation_counter}")
-            logging.warning(f">>>FINISHED-SOS-ADAPTATION#{get_current_time_in_millis() - start_time}")
             init_ip_tree()
             if len(ips_to_check) == number_of_subsystems:
                 # connection back to all the relevant systems is possible -> adapt back to normal
