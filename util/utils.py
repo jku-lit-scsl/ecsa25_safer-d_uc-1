@@ -26,7 +26,7 @@ def setup_logging():
 
     # Create a FileHandler for logging to a file
     log_file_path = os.path.join('logs',
-                                 f"{generate_timestamp_for_filename()}_{CONFIG.my_ip}_tta_eval_30-adapt.log")
+                                 f"{generate_timestamp_for_filename()}_{CONFIG.my_ip}_tta_eval_23-adapt.log")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
     file_handler = logging.FileHandler(log_file_path, mode='w')
     file_handler.setLevel(logging.INFO)
