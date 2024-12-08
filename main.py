@@ -31,6 +31,7 @@ def check_adaptations():
     :return: void
     """
     global ips_to_check, in_SoS_Mode
+    logging.info('Checking adaptations...')
     current_own_sec_level = defcon_handler.get_current_security_level().value
     ip_sec_levels = []
     for ip in ips_to_check:
@@ -69,9 +70,9 @@ def traverse_parent_ips(parent_ip):
             ips_to_check.append(parent_ip)
         else:
             logging.error(f"Unknown statuscode: {response.status_code}")
-    except requests.exceptions.RequestException as e:
+    except RequestException:
         # Handle any request-related errors
-        logging.error(f"{parent_ip} is currently unreachable: {str(e)}")
+        logging.error(f"{parent_ip} is currently unreachable")
 
 
 def traverse_child_ips(child_ip):
@@ -89,9 +90,9 @@ def traverse_child_ips(child_ip):
             ips_to_check.append(child_ip)
         else:
             logging.error(f"Unknown statuscode: {response.status_code}")
-    except requests.exceptions.RequestException as e:
+    except RequestException:
         # Handle any request-related errors
-        logging.error(f"{child_ip} is currently unreachable: {str(e)}")
+        logging.error(f"{child_ip} is currently unreachable")
 
 
 def init_ip_tree(is_first_init=False):
