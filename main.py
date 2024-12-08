@@ -150,5 +150,7 @@ if __name__ == "__main__":
                 # connection back to all the relevant systems is possible -> adapt back to normal
                 in_SoS_Mode = False
                 logging.info("Left SoS mode")
+            else:
+                logging.info(f"Adapting within SoS mode with following IPs: {ips_to_check}")
 
         time.sleep(10)
