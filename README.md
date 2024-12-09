@@ -37,4 +37,8 @@ deactivate
 # to execute the program vai the virtual environment
 sudo venv311/bin/python main.py
 
+# kill process in windws
+$> netstat -ano | findstr :5000
+TCP    0.0.0.0:5000    0.0.0.0:0    LISTENING    1234
+$> taskkill /PID 1234 /F
 ```
