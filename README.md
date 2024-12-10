@@ -2,11 +2,9 @@
 
 Install required packages ([resources.txt](config%2Fresources.txt))
 
-
 ```
 pip install -r config/resources.txt
 ```
-
 
 ### Windows Additional Setup
 
@@ -46,12 +44,14 @@ sudo lsof -i :5000
 # kill the process with the ID 1234
 sudo kill 1234
 ```
+
 ## Eval
 
-Additional Python  Packages Required
+Additional Python Packages Required
 
 ```
 pandas
 matplotlib
 seaborn 
+scikit-learn
 ```
