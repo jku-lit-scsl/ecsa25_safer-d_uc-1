@@ -3,7 +3,7 @@
 This repository contains:
 
 - Source code used for evaluating UC-1
-- Instructions to run the project yourself (c.f. [Running the Project](#running-the-project)
+- Instructions to run the project yourself (c.f. [Running the Project](#running-the-project))
 - Evaluation (c.f. [Evaluation](#evaluation))
   - Jupyter Notebooks used for the evaluation of UC-1
   - Jupyter Notebook used for the evaluation of UC-2
