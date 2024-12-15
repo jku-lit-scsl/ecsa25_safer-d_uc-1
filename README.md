@@ -82,14 +82,17 @@ sudo kill 1234
 # Evaluation
 
 ## Jupyter Notebooks used for the evaluation of UC-1   
-https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/eval/00_uc-1_sec_lvl_eval.ipynb
-https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/eval/01_uc-1_meta-adapt_eval.ipynb
+Files:
+`master/eval/00_uc-1_sec_lvl_eval.ipynb`
+`master/eval/01_uc-1_meta-adapt_eval.ipynb`
 
 ## Jupyter Notebook used for the evaluation of UC-2
-https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/eval/02_uc-2_sec_lvl_eval.ipynb
+File:
+`master/eval/02_uc-2_sec_lvl_eval.ipynb`
 
 ## Raw Log-Data and Timing measurements of UC-1 and UC-2
-https://github.com/jku-lit-scsl/seams25-sec-arch/tree/master/eval/raw
+Files:
+`master/eval/raw`
 
 
 
