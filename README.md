@@ -18,7 +18,7 @@ This repository contains:
 
 ### Setup
 
-Install required packages ([resources.txt](config/Fresources.txt))
+Install required packages ([resources.txt](config/resources.txt))
 
 ```
 pip install -r config/resources.txt
