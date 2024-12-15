@@ -1,20 +1,20 @@
 # SHIELD: A Self-Adaptive Security Framework for Hierarchical Software Systems
 
 This repository contains:
+
 - Source code used for evaluating UC-1
 - Instructions to run the project yourself (c.f. [Running the Project](#running-the-project)
 - Evaluation (c.f. [Evaluation](#evaluation))
   - Jupyter Notebooks used for the evaluation of UC-1
   - Jupyter Notebook used for the evaluation of UC-2
   - Raw Log-Data and Timing measurements of UC-1 and UC-2
-- Additional files for the default MAPE-K loop integration 
+- Additional files for the default MAPE-K loop integration (c.f. [Additional](#additional)))
 
 # Use Case 1: Edge Computing
 
 ![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
-
-## Running the Project 
+## Running the Project
 
 ### Setup
 
@@ -29,7 +29,6 @@ Run `main.py` with sudo
 ### Windows Additional Setup
 
 For ICMP sniffing "npcap" will be necessary: https://npcap.com/#download
-
 
 ### Additioanal Packages required to rerun the Jupyter Notebooks
 
@@ -77,11 +76,9 @@ sudo lsof -i :5000
 sudo kill 1234
 ```
 
-
-
 # Evaluation
 
-## Jupyter Notebooks used for the evaluation of UC-1   
+## Jupyter Notebooks used for the evaluation of UC-1
 
 Files:
 
@@ -101,5 +98,7 @@ Files:
 
 `master/eval/raw`
 
+# Additional
 
-
+Find an example local default mape-k control file in
+``[default_mape_example.txt](additional_files/default_mape_example.txt)``
