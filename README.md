@@ -2,11 +2,13 @@
 
 This repository contains:
 - Source code used for evaluating UC-1
-- Jupyter Notebooks used for the evaluation of UC-1
-- Jupyter Notebook used for the evaluation of UC-2
-- Raw Log-Data and Timing measurements of UC-1 and UC-2
+- Instructions to run the project yourself (c.f. [Running the Project](#running-the-project)
+- Evaluation (c.f. [Evaluation](#evaluation))
+  - Jupyter Notebooks used for the evaluation of UC-1
+  - Jupyter Notebook used for the evaluation of UC-2
+  - Raw Log-Data and Timing measurements of UC-1 and UC-2
 
-# Use Case 1: Edge Computing 
+# Use Case 1: Edge Computing
 
 ![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
@@ -39,12 +41,7 @@ seaborn
 scikit-learn
 ```
 
-## Evaluation Results
-
-
-
-
-## Other useful commands
+### Other useful commands
 
 ```bash
 
@@ -78,4 +75,12 @@ sudo lsof -i :5000
 # kill the process with the ID 1234
 sudo kill 1234
 ```
+
+
+
+# Evaluation
+
+
+
+
 
