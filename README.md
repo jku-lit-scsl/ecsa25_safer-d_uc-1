@@ -82,16 +82,23 @@ sudo kill 1234
 # Evaluation
 
 ## Jupyter Notebooks used for the evaluation of UC-1   
+
 Files:
+
 `master/eval/00_uc-1_sec_lvl_eval.ipynb`
+
 `master/eval/01_uc-1_meta-adapt_eval.ipynb`
 
 ## Jupyter Notebook used for the evaluation of UC-2
+
 File:
+
 `master/eval/02_uc-2_sec_lvl_eval.ipynb`
 
 ## Raw Log-Data and Timing measurements of UC-1 and UC-2
+
 Files:
+
 `master/eval/raw`
 
 
