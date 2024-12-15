@@ -82,21 +82,21 @@ sudo kill 1234
 
 Files:
 
-`master/eval/00_uc-1_sec_lvl_eval.ipynb`
+[00_uc-1_sec_lvl_eval.ipynb](eval/00_uc-1_sec_lvl_eval.ipynb)
 
-`master/eval/01_uc-1_meta-adapt_eval.ipynb`
+[01_uc-1_meta-adapt_eval.ipynb](eval/01_uc-1_meta-adapt_eval.ipynb)
 
 ## Jupyter Notebook used for the evaluation of UC-2
 
 File:
 
-`master/eval/02_uc-2_sec_lvl_eval.ipynb`
+[02_uc-2_sec_lvl_eval.ipynb](eval/02_uc-2_sec_lvl_eval.ipynb)
 
 ## Raw Log-Data and Timing measurements of UC-1 and UC-2
 
 Files:
 
-`master/eval/raw`
+[raw](eval/raw)
 
 # Additional
 
