@@ -1,6 +1,8 @@
 # SHIELD: A Self-Adaptive Security Framework for Hierarchical Software Systems
-## Use Case 1
 
+# Use Case 1: IndustrEdge Computing 
+
+![](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
 
 ## Setup
