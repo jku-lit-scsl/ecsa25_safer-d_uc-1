@@ -101,4 +101,4 @@ Files:
 # Additional
 
 Find an example local default mape-k control file in
-``[default_mape_example.txt](additional_files/default_mape_example.txt)``
+[default_mape_example.txt](additional_files/default_mape_example.txt)
