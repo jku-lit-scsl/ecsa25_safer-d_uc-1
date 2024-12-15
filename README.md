@@ -1,6 +1,6 @@
 # SHIELD: A Self-Adaptive Security Framework for Hierarchical Software Systems
 
-# Use Case 1: IndustrEdge Computing 
+# Use Case 1: Edge Computing 
 
 ![](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
@@ -13,11 +13,29 @@ Install required packages ([resources.txt](config%2Fresources.txt))
 pip install -r config/resources.txt
 ```
 
+Run `main.py` with sudo
+
 ### Windows Additional Setup
 
 For ICMP sniffing "npcap" will be necessary: https://npcap.com/#download
 
-## Other useful commands
+
+### Additioanal Packages required to rerun the Jupyter Notebooks
+
+Additional Python Packages Required
+
+```
+pandas
+matplotlib
+seaborn 
+scikit-learn
+```
+
+
+
+
+
+### Other useful commands
 
 ```bash
 
@@ -52,13 +70,3 @@ sudo lsof -i :5000
 sudo kill 1234
 ```
 
-## Eval
-
-Additional Python Packages Required
-
-```
-pandas
-matplotlib
-seaborn 
-scikit-learn
-```
