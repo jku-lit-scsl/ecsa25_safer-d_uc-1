@@ -1,11 +1,19 @@
 # SHIELD: A Self-Adaptive Security Framework for Hierarchical Software Systems
 
+This repository contains:
+- Source code used for evaluating UC-1
+- Jupyter Notebooks used for the evaluation of UC-1
+- Jupyter Notebook used for the evaluation of UC-2
+- Raw Log-Data and Timing measurements of UC-1 and UC-2
+
 # Use Case 1: Edge Computing 
 
-![](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
+![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
 
-## Setup
+## Running the Project 
+
+### Setup
 
 Install required packages ([resources.txt](config%2Fresources.txt))
 
@@ -31,11 +39,12 @@ seaborn
 scikit-learn
 ```
 
+## Evaluation Results
 
 
 
 
-### Other useful commands
+## Other useful commands
 
 ```bash
 
