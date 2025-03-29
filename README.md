@@ -1,6 +1,10 @@
 # SAFER-D: A Self-Adaptive Security Framework for Distributed Computing Architectures
 
-## Contents
+
+This repository contains together with the webauthn sourcecode repository the supplemental material for SAFER-D.
+
+
+Contents:
 
 - Source code used for evaluating UC-1
 - Instructions to run the project yourself (c.f. [Running the Project](#running-the-project))
@@ -13,6 +17,9 @@
 # Use Case 1: Edge Computing for machine manufacturing
 
 ![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
+
+Note: The numbers in the image were simplified in the paper. 
+For better traceability, the numbers here correspond to the last digits of the respective IP addresses in the evaluation.
 
 ## Running the Project
 
