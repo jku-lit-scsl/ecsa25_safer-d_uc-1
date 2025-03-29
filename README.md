@@ -4,7 +4,7 @@
 This repository contains together with the webauthn sourcecode repository the supplemental material for SAFER-D.
 
 
-Contents:
+This repository contains:
 
 - Source code used for evaluating UC-1
 - Instructions to run the project yourself (c.f. [Running the Project](#running-the-project))
