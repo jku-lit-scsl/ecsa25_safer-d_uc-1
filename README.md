@@ -16,7 +16,7 @@ This repository contains:
 
 ![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
-Note: The numbers in the image were simplified in the paper. 
+**Note**: The numbers in the image were simplified in the paper. 
 For better traceability, the numbers here correspond to the last digits of the respective IP addresses in the evaluation.
 
 ## Running the Project
