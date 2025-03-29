@@ -1,16 +1,16 @@
-# SHIELD: A Self-Adaptive Security Framework for Hierarchical Software Systems
+# SAFER-D: A Self-Adaptive Security Framework for Distributed Computing Architectures
 
-This repository contains:
+## Contents
 
 - Source code used for evaluating UC-1
 - Instructions to run the project yourself (c.f. [Running the Project](#running-the-project))
 - Evaluation (c.f. [Evaluation](#evaluation))
   - Jupyter Notebooks used for the evaluation of UC-1
-  - Jupyter Notebook used for the evaluation of UC-2
+  - Jupyter Notebook used for the evaluation of UC-2 (Webauthn)
   - Raw Log-Data and Timing measurements of UC-1 and UC-2
-- Additional files for the default MAPE-K loop integration (c.f. [Additional](#additional)))
+- Additional files for the local MAPE-K loop integration (c.f. [Additional](#additional)))
 
-# Use Case 1: Edge Computing
+# Use Case 1: Edge Computing for machine manufacturing
 
 ![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
 
