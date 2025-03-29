@@ -1,8 +1,6 @@
 # SAFER-D: A Self-Adaptive Security Framework for Distributed Computing Architectures
 
-
-This repository contains together with the webauthn sourcecode repository the supplemental material for SAFER-D.
-
+## Supplemental Material
 
 This repository contains:
 
