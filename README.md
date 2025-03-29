@@ -14,7 +14,7 @@ This repository contains:
 
 # Use Case 1: Edge Computing for machine manufacturing
 
-![hierachy_img](https://github.com/jku-lit-scsl/seams25-sec-arch/blob/master/uc-1-arch-v2.png)
+![hierachy_img](uc-1-arch-v2.png)
 
 **Note**: The numbers in the image were simplified in the paper. 
 For better traceability, the numbers here correspond to the last digits of the respective IP addresses in the evaluation.
