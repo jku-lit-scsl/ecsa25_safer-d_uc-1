@@ -71,7 +71,7 @@ deactivate
 sudo venv311/bin/python main.py
 
 # git commands for switching branch
-git remote add origin https://github.com/jku-lit-scsl/seams25-sec-arch.git
+git remote add origin https://github.com/jku-lit-scsl/ecsa25_safer-d_uc-1.git
 git fetch origin
 
 # see whats running on port 5000
